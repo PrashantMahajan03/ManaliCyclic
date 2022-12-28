@@ -1,0 +1,1172 @@
+.main {
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #4e3ee5;
+  border-radius: 20px;
+  box-shadow: 0 0 8px gray;
+  margin-right: 20px;
+  min-height: 100%;
+  padding: 10px;
+  font-family: "Source Serif Pro" !important;
+}
+
+.sidebar-header {
+  color: white;
+}
+
+.sidebaricons {
+  font-size: 25px !important;
+}
+
+.header {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #4e3ee5;
+  margin-bottom: 20px;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #4e3ee5;
+  height: 82vh;
+  width: 100%;
+  font-family: "Source Serif Pro" !important;
+  /* border-color: #c6bef5 !important; */
+  /* box-shadow: 0 4px 4px 0 #c6bef5, 0 6px 20px 0 #c6bef5; */
+}
+
+.heading-content {
+  padding-left: 1.2rem;
+  padding-top: 1.2rem;
+  font-family: "Source Serif Pro" !important;
+}
+
+.heading-content-consultation {
+  padding-left: 1.2rem;
+  padding-top: 1.2rem;
+  font-family: "Source Serif Pro" !important;
+  margin-bottom: 2rem !important;
+}
+
+.menu {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+
+.menu-item {
+  margin-top: 40px;
+  margin-left: 0 rem;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0 10px;
+}
+
+.menu-item i {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 15px;
+}
+.sidebar h1 {
+  margin-left: 0.5rem !important;
+}
+.layouttitle {
+  color: white;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.5rem !important;
+  margin-top: 0.8rem;
+  text-decoration: none !important;
+}
+
+.layouttitle:hover {
+  color: black;
+}
+
+.active-menu-item {
+  color: white;
+  background-color: #c6bef5;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: fit-content !important;
+}
+
+.ant-badge-count {
+  background-color: rgb(246, 54, 54) !important;
+  transform: translate(15%, -60%) !important;
+}
+
+.header-action-icon {
+  font-size: 30px;
+  color: #4e3ee5;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.ant-scroll-number-only-unit {
+  color: black !important;
+}
+
+.username {
+  color: #4e3ee5;
+}
+.username:hover {
+  color: black;
+}
+
+.ant-tabs-tab-btn {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  color: black;
+}
+.ant-tabs-tab-active {
+  color: #4e3ee5 !important;
+}
+
+.ant-tabs-nav-list {
+  margin-left: 1.2rem !important;
+}
+
+.ant-tabs-ink-bar:active {
+  color: #4e3ee5 !important;
+}
+
+.ant-table-cell {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+}
+
+.ant-table {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.ant-pagination {
+  margin-right: 5px !important;
+}
+
+.anticon {
+  text-align: center !important;
+}
+
+.ant-pagination-item {
+  border-color: #4e3ee5 !important;
+  color: #4e3ee5 !important;
+}
+
+.layoutprofilepicturecard {
+  /* border-radius: 50% !important; */
+  height: 30px !important;
+  border: none !important;
+  margin-left: 0.2rem !important;
+  /* margin-left: 3rem !important;
+  margin-top: 2rem !important; */
+}
+
+.layoutprofilepicture {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .menu .body .header {
+    padding: 0 5px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  .main {
+    padding: 20px 40px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.6rem !important;
+    margin-top: 0.4rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+  .sidebaricons {
+    font-size: 30px !important;
+  }
+  .header {
+    height: 10vh;
+    width: 1650px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    margin-left: -1rem !important;
+    margin-top: -1rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 1650px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 120px;
+    padding: 0px 10px;
+  }
+
+  .menu-item {
+    margin-top: 40px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1440px) {
+  .main {
+    padding: 20px 40px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.6rem !important;
+    margin-top: 0.4rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+  .sidebaricons {
+    font-size: 30px !important;
+  }
+  .header {
+    height: 10vh;
+    width: 1250px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    margin-left: -1rem !important;
+    margin-top: -1rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 1250px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 120px;
+    padding: 0px 10px;
+  }
+
+  .menu-item {
+    margin-top: 40px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1400px) {
+  .main {
+    padding: 20px 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.6rem !important;
+    margin-top: 0.4rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+  .sidebaricons {
+    font-size: 30px !important;
+  }
+  .header {
+    height: 10vh;
+    width: 1200px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    margin-left: -1rem !important;
+    margin-top: -1rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 1200px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 120px;
+    padding: 0px 10px;
+  }
+
+  .menu-item {
+    margin-top: 40px;
+    margin-left: 0rem;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1360px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.6rem !important;
+    margin-top: 0.4rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+  .sidebaricons {
+    font-size: 30px !important;
+  }
+  .header {
+    height: 10vh;
+    width: 1100px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    margin-left: -1rem !important;
+    margin-top: -1rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 1100px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 120px;
+    padding: 0px 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1194px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.6rem !important;
+    margin-top: 0.4rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 900px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    margin-left: -1rem !important;
+    margin-top: -1rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 900px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 120px;
+    padding: 0px 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.6rem !important;
+    margin-top: 0.4rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 850px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    margin-left: -1rem !important;
+    margin-top: -1rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 850px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 120px;
+    padding: 0px 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 883px) and (max-width: 926px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.5rem !important;
+    margin-top: 0.8rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 700px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 1rem !important;
+    margin-left: -6.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    margin-left: -0.5rem !important;
+    margin-top: -0.5rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.4rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 700px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 80px;
+    padding: 0 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 854px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.5rem !important;
+    margin-top: 0.8rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 650px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: -5.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    margin-left: 0rem !important;
+    margin-top: -0.5rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.2rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 650px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 80px;
+    padding: 0 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 700px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.5rem !important;
+    margin-top: 0.8rem;
+  }
+  .layouttitle a {
+    font-size: 1.4rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 460px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: -5.5rem !important;
+    margin-right: 2rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    margin-left: 0rem !important;
+    margin-top: -0.5rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1.2rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 460px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 80px;
+    padding: 0 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 428px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1.5rem !important;
+    margin-top: 0.8rem;
+  }
+  .layouttitle a {
+    font-size: 1.2rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 235px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: -3.5rem !important;
+    margin-right: 1.5rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    margin-left: 0.2rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 235px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 80px;
+    padding: 0 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  .main {
+    padding: 20px;
+    height: 100vh;
+  }
+  .layouttitle {
+    font-size: 1rem !important;
+    margin-top: 0.8rem;
+  }
+  .layouttitle a {
+    font-size: 1rem !important;
+    margin: 0rem !important;
+  }
+
+  .sidebar {
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    font-family: "Source Serif Pro" !important;
+  }
+
+  .header {
+    height: 10vh;
+    width: 220px !important;
+  }
+  .align-items-center {
+    width: 150px !important;
+    justify-content: left !important;
+  }
+  .ant-badge {
+    padding: 0rem !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: -2.5rem !important;
+    margin-right: 1.5rem !important;
+  }
+  .ant-badge-count {
+    transform: translate(100%, -60%) !important;
+  }
+
+  .ri-notification-fill i {
+    padding: none !important;
+  }
+  .layoutprofilepicture {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    margin-left: 0.2rem !important;
+  }
+  .ant-card-cover {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .username {
+    font-size: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .body {
+    height: 82vh;
+    width: 220px !important;
+  }
+  .heading-content {
+    padding-left: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+
+  .heading-content-consultation {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-family: "Source Serif Pro" !important;
+    margin-bottom: 2rem !important;
+  }
+  .menu {
+    margin-top: 100px;
+    padding: 0 10px;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+    margin-left: 0rem;
+  }
+}

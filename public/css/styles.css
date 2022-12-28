@@ -1,0 +1,920 @@
+body {
+  font-family: "Source Serif Pro";
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  color: black;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Source Serif Pro";
+  color: black;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Source Serif Pro";
+  color: black;
+}
+
+p {
+  font-weight: 400;
+  color: white;
+}
+
+h5 {
+  width: 20rem;
+  text-align: left;
+  padding-left: 4rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: black;
+}
+
+span {
+  color: #4e3ee5;
+}
+
+#title {
+  background-color: white;
+  padding: 0;
+}
+
+/* Navigation-Bar */
+.container-fluid {
+  background-color: #white;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  color: #4e3ee5;
+  font-size: 1.8rem;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+}
+
+.navbar-nav {
+}
+
+.nav-link {
+  color: black;
+  padding: 0 2rem !important;
+  font-size: 1.2rem;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+}
+
+/* Content */
+#content-sec {
+  background-color: white;
+  margin-bottom: 4rem;
+}
+
+.content-row {
+  margin-bottom: 0 !important;
+}
+
+.btn-contact {
+  background-color: #4e3ee5;
+  font-family: "Source Serif Pro";
+  font-size: 1.2rem;
+  margin-right: 8%;
+  padding: 1rem 2rem;
+  border-style: none;
+}
+
+.btn-contact:hover {
+  background-color: black;
+}
+
+.btn-case {
+  background-color: black;
+  font-family: "Source Serif Pro";
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-style: none;
+}
+
+.btn-case:hover {
+  background-color: #4e3ee5;
+}
+
+.buttons-content {
+  margin-left: 16%;
+  margin-top: 5%;
+}
+
+.btnsignup {
+  background-color: #4e3ee5;
+  font-family: "Source Serif Pro";
+  font-size: 1.2rem;
+  margin-right: 8%;
+  padding: 0.8rem 2rem;
+  border-style: none;
+}
+
+.btnsignup:hover {
+  background-color: black;
+}
+
+.signup-input {
+  width: 40%;
+  height: 3.2rem;
+  margin: 3rem 0rem 1.2rem 9rem;
+}
+
+/* Speciality */
+#speciality {
+  /* background-color: #b1bce6;
+  background: rgb(78, 62, 229);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 62, 229, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  ); */
+  /* background: rgb(66, 149, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(66, 149, 215, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  ); */
+
+  /* padding-bottom: 0.1rem !important; */
+  /* margin-bottom: 4rem; */
+
+  margin: 10rem 0rem;
+}
+
+.carouselspecial {
+  margin: 2rem 0rem !important;
+}
+
+.card-group {
+  width: 1200px !important;
+  height: 350px !important;
+  margin: auto !important;
+}
+
+.card {
+  border-radius: 0rem !important;
+}
+
+.card-special {
+  padding: 0rem 0rem 0rem 0rem !important;
+  width: 300px !important;
+  height: 300px !important;
+  margin: 1.5rem 1rem 1rem 1rem !important;
+  /* border: none !important; */
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 4px 8px 0 #c6bef5, 0 6px 20px 0 #c6bef5;
+}
+
+.card-special:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  width: 200px !important;
+  padding: 0rem 0rem !important;
+  margin: auto !important;
+}
+
+.card-title {
+  width: 200px !important;
+  text-align: center !important;
+  padding: 1rem 0rem !important;
+  margin: auto !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.carousel-control-prev-icon {
+  background-color: ;
+}
+
+.speciality-row {
+  padding-top: 30px !important;
+  margin: 0 !important;
+}
+
+.specialrow {
+  margin: 2rem 0rem !important;
+  padding: 0rem 0rem !important;
+  height: 500px;
+}
+
+.specialcol {
+  margin-top: 2rem;
+  margin-left: 1.6rem;
+  padding: 0rem 0rem !important;
+  width: 300px;
+  height: 250px;
+}
+
+.content-col-1 {
+  width: 602px;
+  height: 600px;
+  padding: 0;
+  margin-left: 4.5rem;
+}
+
+.content-col-2 {
+  margin-left: 10rem;
+}
+
+.h3-sp {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 8rem;
+  margin-bottom: 3rem;
+}
+
+.span-sp {
+  color: #4e3ee5;
+}
+
+.speciality-images {
+  margin-top: -2rem;
+}
+
+/* Table */
+
+td {
+  width: 5rem;
+  vertical-align: center;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.row {
+  margin: auto;
+  margin-bottom: 8rem;
+  padding-top: 5rem;
+}
+
+.content-col {
+  color: black;
+  margin: auto;
+}
+
+.content {
+  margin-top: -20%;
+  margin-left: 15%;
+}
+
+/* Image */
+.crown {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.bridge {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.implant {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.denture {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.isd {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.laminates {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.rpd {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.splint {
+  width: 200px;
+  height: 200px;
+  margin: auto !important;
+}
+
+.sp-overview {
+  width: 130%;
+  margin-top: -2.2rem;
+  margin-left: -2rem;
+}
+
+.image1 {
+  width: 75%;
+  margin-top: -12%;
+  margin-left: 12%;
+}
+
+.image2 {
+  width: 30%;
+  margin-left: 62%;
+  margin-top: -35%;
+}
+
+.image3 {
+  width: 30%;
+  margin-left: 20%;
+  margin-top: -8%;
+}
+
+.image4 {
+  width: 30%;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.gs1 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs2 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs3 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs4 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs5 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs6 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs7 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs8 {
+  width: 500px;
+  height: 500px;
+}
+
+.gs9 {
+  width: 500px;
+  height: 500px;
+}
+
+/* .gs1 {
+  width: 200px;
+  height: 200px;
+}
+
+.gs2 {
+  width: 200px;
+  height: 200px;
+  margin-left: -0.2rem;
+}
+
+.gs3 {
+  width: 200px;
+  height: 200px;
+  margin-left: -0.2rem;
+}
+
+.gs4 {
+  width: 200px;
+  height: 200px;
+}
+
+.gs5 {
+  width: 200px;
+  height: 200px;
+  margin-left: -0.2rem;
+}
+
+.gs6 {
+  width: 200px;
+  height: 200px;
+  margin-left: -0.2rem;
+}
+
+.gs7 {
+  width: 200px;
+  height: 200px;
+}
+
+.gs8 {
+  width: 200px;
+  height: 200px;
+  margin-left: -0.2rem;
+}
+
+.gs9 {
+  width: 200px;
+  height: 200px;
+  margin-left: -0.2rem;
+} */
+
+.manali {
+  width: 100%;
+}
+
+/* Consultation */
+#consultation {
+  margin: auto;
+}
+
+.carousel-inner-consultation {
+  margin-left: 8rem;
+  width: 600px;
+}
+
+.consultation-row {
+  padding-top: 2rem !important;
+}
+
+.consult-row {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  margin-bottom: 0 !important;
+}
+
+.consult-col {
+  margin: auto;
+}
+
+.consult-text-h2 {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+
+  /* border: solid;
+  border-radius: 0.6rem;
+  border-color: #c6bef5;
+  background-color: #c6bef5;
+  margin-left: -2rem; */
+}
+
+.concard-doc {
+  width: 600px !important;
+  height: 200px !important;
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+}
+
+.concard-patient {
+  width: 600px !important;
+  height: 200px !important;
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+}
+
+.concard-h2 {
+  padding: 3.8rem 0rem;
+  margin-left: -1rem;
+}
+
+.card-header {
+  background-color: white;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  width: 550px;
+  padding: 0rem 0rem !important;
+  border-bottom: 0.1rem solid !important;
+  border-color: #c6bef5 !important;
+}
+
+.privacy {
+  width: 10%;
+  margin-left: 22rem;
+}
+
+.for-doc-c {
+  padding: 1.2rem 0rem;
+  /* border: solid;
+  border-radius: 0.6rem;
+  border-color: #c6bef5;
+  background-color: #c6bef5;
+  margin-right: -2rem; */
+}
+
+.for-patients-c {
+  padding: 1.2rem 0rem;
+
+  /* margin-top: 1.2rem;
+  padding: 1.2rem 0.6rem; */
+  /* border: solid;
+  border-radius: 0.6rem;
+  border-color: #c6bef5;
+  background-color: #c6bef5;
+  margin-right: -2rem; */
+}
+
+.card-body-consult {
+  margin: 0.5rem 0rem !important;
+  width: 600px !important;
+}
+
+.for-doc {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.for-patients {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.for-doc-h2 {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.for-patients-span {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  color: #4e3ee5;
+}
+
+.btn-doc {
+  background-color: #4e3ee5;
+  font-family: "Source Serif Pro";
+  font-size: 1.2rem;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 1rem 3rem 0.5rem !important;
+}
+
+.btn-doc:hover {
+  background-color: black;
+}
+
+.btn-patient {
+  background-color: black;
+  font-family: "Source Serif Pro";
+  font-size: 1.2rem;
+  margin-right: 8%;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 1rem 3rem 0.5rem !important;
+}
+
+.btn-patient:hover {
+  background-color: #4e3ee5;
+}
+
+.cardimage {
+  width: 20%;
+  margin-left: 27rem;
+  margin-bottom: 4rem;
+  margin-top: -7.5rem;
+}
+.cardimage1 {
+  width: 20%;
+  margin-left: 27rem;
+  margin-bottom: 4rem;
+  margin-top: -7.5rem;
+}
+
+/* About-Me */
+#aboutme {
+  background-color: white;
+  margin-bottom: 4rem;
+}
+
+.aboutme-td {
+  width: 40rem;
+  text-align: left;
+  padding: 0;
+}
+
+.h3-aboutme {
+  font-family: "Source Serif Pro";
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0;
+  line-height: 2.8rem;
+  text-align: justify;
+}
+
+.manali-about-me {
+  width: 120%;
+  margin-left: 12rem;
+  padding-left: 6rem;
+}
+
+.aboutme-table {
+  margin-top: 0.6rem;
+  margin-left: 8rem;
+}
+
+/* Contact Me */
+#contactme {
+  background-color: #4e3ee5;
+  padding: 2% 2%;
+}
+
+.follow {
+  padding: 0% 1%;
+}
+
+.fab {
+  padding: 0% 1%;
+}
+
+.socialicon {
+  color: black;
+}
+
+#booking {
+  text-align: center;
+  margin: 5rem auto;
+  width: 50rem;
+}
+
+.bookingtable {
+  margin: 2rem 0rem;
+  width: 100%;
+}
+
+.booktablerow {
+  width: 100%;
+  height: 10px !important;
+}
+
+.appointmentbooking {
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 4px 8px 0 #c6bef5, 0 6px 20px 0 #c6bef5;
+}
+
+.namelabel {
+  margin: 0rem 3rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.bookername {
+  margin: 0rem 3rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-size: 1.2rem;
+  height: 2rem;
+}
+
+.datelabel {
+  margin: 0rem 3rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.appointmentdate {
+  margin: 0rem 3rem;
+  height: 2rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-size: 1.2rem;
+}
+
+.appointmentcanceldate {
+  margin: 0rem 3rem;
+  height: 2rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-size: 1.2rem;
+}
+
+.timelabel {
+  margin: 0rem 3rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.appointmenttime {
+  margin: 0rem 3rem;
+  width: 20%;
+  height: 2rem;
+  font-family: "Source Serif Pro";
+  color: black;
+  font-size: 1.2rem;
+}
+
+.bookbutton {
+  background-color: #4e3ee5;
+  margin-bottom: 2rem;
+  border: none;
+  font-family: "Source Serif Pro";
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+
+.bookbutton:hover {
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+.bookingheading {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: "Source Serif Pro";
+  color: black;
+  margin-top: 2rem;
+}
+
+.canceltext {
+  text-align: center !important;
+  margin: 1rem 0rem 0rem 0rem !important;
+  width: 100% !important;
+  height: 50px !important;
+  font-family: "Source Serif Pro" !important;
+  color: black !important;
+  font-size: 1.2rem !important;
+  font-weight: 300 !important;
+  padding-left: 0rem !important;
+}
+
+.canceltable {
+  width: 100%;
+}
+
+.cancelrow1 {
+  width: 80%;
+}
+
+.cancelrow2 {
+  width: 50%;
+}
+
+.btncancel:hover {
+  background-color: #4e3ee5;
+}
+
+/* Register */
+
+.registercontainer {
+  margin: 5rem 10rem 5rem 10rem !important;
+}
+
+.registerrow {
+  padding-top: 2rem !important;
+}
+
+.registertitle {
+  font-family: "Source Serif Pro";
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: black;
+}
+
+.registeremail {
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+  font-family: "Source Serif Pro";
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.registercard {
+  width: 90% !important;
+  margin: 1rem 1rem 0rem 1rem !important;
+}
+
+.registermaincard {
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 4px 8px 0 #c6bef5, 0 6px 20px 0 #c6bef5;
+}
+
+.firstName {
+  margin-bottom: 0.75rem;
+}
+
+.lastName {
+  margin-bottom: 0.75rem;
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-color: black;
+  border: solid;
+  background: white;
+  border-radius: 100px;
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+
+.registerdivider {
+  margin-top: 3.5rem;
+  margin-left: 5rem;
+}
+
+.registerdividertext {
+  position: absolute;
+  width: 2px !important;
+  top: 50%;
+  left: -2.6rem;
+  transform: translate(-25%, -50%);
+  margin: 0;
+  color: #4e3ee5;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100px;
+  background: #4e3ee5;
+  margin: 1rem auto 1rem auto;
+}
+
+.googlecard {
+  margin: 1rem 0rem 1rem 7rem !important;
+  width: 20rem !important;
+}
+
+.googlemaincard {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.registergoogle {
+  font-family: "Source Serif Pro";
+  font-size: 2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.googlebutton {
+  margin: 7.5rem 0rem 5rem 0rem !important;
+}
+
+.alreadyregistered {
+  color: black;
+}

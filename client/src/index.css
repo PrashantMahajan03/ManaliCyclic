@@ -1,0 +1,6358 @@
+body {
+  font-family: "Source Serif Pro" !important;
+  /* background-color: #c1bfdf !important; */
+}
+
+span {
+  color: #4e3ee5;
+}
+
+/* Navigation Bar */
+
+.color-nav {
+  background-color: white !important;
+}
+
+.navbrand {
+  font-size: 2rem !important;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  color: #4e3ee5 !important;
+  margin-left: -2rem !important;
+}
+
+.navlinks {
+  font-size: 1.4rem !important;
+  font-family: "Source Serif Pro" !important;
+  font-weight: 300 !important;
+  color: black !important;
+  padding: 0rem 1.6rem !important;
+}
+.navicons {
+  display: none !important;
+}
+
+.navbar-nav {
+  margin-right: -4rem !important;
+}
+
+/* Center Content */
+
+.contenttext {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  text-align: left;
+  margin: 8rem 2rem 0rem 8rem;
+  width: 38%;
+}
+
+.h1text {
+  font-size: 4.8rem;
+  color: black;
+}
+.carousel-control-prev-icon {
+  margin-top: 2rem !important;
+}
+
+.carousel-control-next-icon {
+  margin-top: 2rem !important;
+}
+
+.carousel-indicators {
+  margin-bottom: -3rem !important;
+}
+
+.speciality {
+  margin-bottom: 3rem;
+  margin-top: 9rem;
+}
+
+.h3-sp {
+  font-family: "Source Serif Pro";
+  font-weight: 200;
+  font-size: 1.6rem;
+  margin-left: 8rem;
+}
+
+.span-sp {
+  color: #4e3ee5;
+}
+
+.image1 {
+  /* position: relative !important; */
+  width: 580px;
+  height: 650px;
+  margin-left: 100px;
+}
+
+.btn-contact {
+  background-color: #4e3ee5 !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  margin-right: 8% !important;
+  padding: 1rem 2rem !important;
+  border-style: none !important;
+}
+
+.btn-contact:hover {
+  background-color: black !important;
+}
+
+.btn-case {
+  background-color: black !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  padding: 1rem 2rem !important;
+  border-style: none !important;
+}
+
+.btn-case:hover {
+  background-color: #4e3ee5 !important;
+}
+
+.signupnewsletter {
+  margin-top: 1rem !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 300px !important;
+  border-radius: 0.5rem !important;
+  height: 48px !important;
+}
+.signupnewsletter input {
+  margin-left: 0rem !important;
+  width: 300px !important;
+}
+
+.form-control {
+  width: 20% !important;
+}
+
+.btn-signup {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  background-color: #4e3ee5 !important;
+  padding: 0.5rem 1rem !important;
+  margin-top: -5.5rem !important;
+  margin-left: 22rem !important;
+  border: none !important;
+  border-style: none !important;
+}
+
+.btn-signup:hover {
+  background-color: black !important;
+}
+
+/* Speciality */
+
+.specialityimage {
+  width: 250px;
+  height: 250px;
+  margin: auto !important;
+}
+
+.mobilecards {
+  display: none;
+}
+
+.specialitycard {
+  padding: 0rem 0rem 0rem 0rem !important;
+  width: 300px !important;
+  height: 300px !important;
+  margin: 1.5rem 1rem 1rem 1rem !important;
+  /* border: none !important; */
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 4px 8px 0 #c6bef5, 0 6px 20px 0 #c6bef5;
+}
+
+.specialitycard:hover {
+  transform: scale(1.05);
+}
+
+.cardgroup {
+  width: 1200px !important;
+  height: 350px !important;
+  margin: auto !important;
+  margin-top: 1rem !important;
+}
+
+/* Consultation */
+.consultationimages {
+  width: 500px;
+  height: 500px;
+  margin: 2rem 0rem 5rem 8rem;
+}
+
+.consultcarousel.carousel-control-next-icon,
+.consultcarousel.carousel-control-prev-icon {
+  display: none !important;
+}
+
+.consult-text-h2 {
+  font-family: "Source Serif Pro";
+  font-weight: 200;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+  margin-top: 10rem;
+}
+
+.booknowcard {
+  margin: 3rem 0rem !important;
+  width: 600px !important;
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+}
+
+.doctext {
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  border-bottom: 0.1rem solid !important;
+  border-color: #c6bef5 !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.btn-doc {
+  background-color: #4e3ee5 !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  padding: 0.5rem 1rem !important;
+  margin-top: 1rem !important;
+}
+
+.btn-doc:hover {
+  background-color: black !important;
+}
+
+.patienttext {
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  border-bottom: 0.1rem solid !important;
+  border-color: #c6bef5 !important;
+  margin-bottom: 1.2rem !important;
+  color: #4e3ee5 !important;
+}
+
+.patientbody {
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  color: #4e3ee5 !important;
+}
+
+.btn-patient {
+  background-color: black !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.btn-patient:hover {
+  background-color: #4e3ee5 !important;
+}
+
+.cardimageconsult {
+  width: 20%;
+  margin-left: 18rem !important;
+  padding: none !important;
+}
+
+/* About Me */
+.aboutmerow {
+  width: 100% !important;
+  margin-top: 3rem !important;
+}
+
+.h3-aboutme {
+  font-family: "Source Serif Pro";
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 8rem;
+  width: 40% !important;
+  line-height: 2.8rem;
+  text-align: justify;
+}
+
+.manali-about-me {
+  width: 20% !important;
+  margin-left: 5rem;
+  margin-top: 7rem;
+  height: 20% !important;
+}
+
+/* Register Now */
+
+.registerrow {
+  margin-top: 6rem !important;
+  margin-left: 20rem !important;
+  margin-bottom: 12rem !important;
+}
+
+.appointmentext {
+  margin: 6rem 0rem 0rem 8rem !important;
+}
+
+.registerholders {
+  width: 500px !important;
+  height: 50px !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  margin-top: 0.8rem !important;
+  border-radius: 0.5rem !important;
+}
+
+.registertext {
+  font-family: "Source Serif Pro" !important;
+  font-size: 2.2rem !important;
+  font-weight: 400 !important;
+}
+
+.btn-login {
+  background-color: #4e3ee5 !important;
+  color: white !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  border-radius: 0.4rem !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-left: 3.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.btn-login span {
+  color: white !important;
+  display: flex !important;
+  margin-top: -0.9rem !important;
+}
+
+.btn-login:hover {
+  background-color: black !important;
+}
+
+.btn-register {
+  background-color: #4e3ee5 !important;
+  color: white !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  border-radius: 0.4rem !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-left: 3.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.btn-register span {
+  color: white !important;
+  display: flex !important;
+  margin-top: -0.9rem !important;
+}
+
+.btn-register:hover {
+  background-color: black !important;
+}
+
+.registercard {
+  margin: 2rem 0rem 0rem 8rem !important;
+  width: 36rem !important;
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 6px 6px 0 #c6bef5, 0 4px 10px 0 #c6bef5;
+}
+.vl {
+  border-left: 6px solid #c6bef5;
+  height: 610px;
+  margin-top: -4rem !important;
+  margin-left: 2rem !important;
+}
+
+.registerlink {
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  font-size: 1.4rem !important;
+  color: #4e3ee5 !important;
+  margin-left: 8rem !important;
+}
+
+.loginlink {
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  font-size: 1.4rem !important;
+  color: #4e3ee5 !important;
+  margin-left: 1.5rem !important;
+}
+
+.showpassword {
+  font-family: "Source Serif Pro" !important;
+  font-weight: 400 !important;
+  border: none !important;
+  justify-content: left !important;
+  box-shadow: none !important;
+  margin-left: 24rem !important;
+  margin-top: -1rem !important;
+  display: flex !important;
+}
+
+/* DateTimePicker */
+
+.ant-picker {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  margin-top: 0.8rem !important;
+  border-radius: 0.5rem !important;
+  width: 500px !important;
+  height: 50px !important;
+}
+
+.ant-picker-content {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1rem !important;
+}
+
+.ant-picker-header-view {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1rem !important;
+}
+
+/* Spinner */
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.674);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+}
+
+.spinner-border {
+  width: 5rem;
+  height: 5rem;
+  color: white;
+}
+
+/* Contact Me */
+.contactme {
+  font-family: "Source Serif Pro" !important;
+  font-size: 5rem !important;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5rem !important;
+}
+.contactcontext {
+  font-family: "Source Serif Pro" !important;
+  font-size: 2rem !important;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 5rem !important;
+  margin-left: 3rem !important;
+}
+
+/*   */
+
+.descriptionholders {
+  width: 500px !important;
+  height: 250px !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  margin-top: 0.8rem !important;
+  border-radius: 0.5rem !important;
+}
+
+.ant-select-selector {
+  width: 500px !important;
+  height: 50px !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-radius: 0.5rem !important;
+}
+
+.anchor {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.approvalbtn {
+  margin-top: 10px !important;
+}
+
+.notificationcard {
+  margin: 5px 10px 10px 10px !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-radius: 0.4rem !important;
+  border-color: #c6bef5 !important;
+}
+
+.tabscontent {
+  overflow: scroll !important;
+  max-height: 350px !important;
+}
+
+.ant-table-content {
+  overflow: scroll !important;
+  max-height: 450px !important;
+}
+
+.seenbtn {
+  margin-right: 15px !important;
+}
+
+.blogtitleinput {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 90% !important;
+  margin: 80px 0px 10px 20px !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.blogdescriptioninput {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 90% !important;
+  height: 150px !important;
+  margin: 10px 0px 10px 20px !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.blogimageinput {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 90% !important;
+  margin: 10px 0px 10px 20px !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.bloguploadbtn {
+  border-width: 0rem !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.uploadimage {
+  width: 500px !important;
+  height: 500px !important;
+  margin-top: -2rem;
+  margin-left: 1rem;
+}
+
+/*Consultation Booking */
+.consultationfeeinfo {
+  font-family: "Source Serif Pro" !important;
+  font-size: 0.8rem !important;
+  color: red !important;
+  margin-left: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.ant-select-selector {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 100% !important;
+  height: 50px !important;
+  color: black !important;
+  border-color: #4e3ee5 !important;
+}
+
+.ant-select-selector.item {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 90% !important;
+  height: 50px !important;
+  color: black !important;
+}
+
+.ant-select-selection-item {
+  color: black !important;
+  margin: auto !important;
+}
+
+.consultationinput {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 120% !important;
+  height: 40px !important;
+  color: black !important;
+  margin-left: 1.2rem !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+.consultationinputtitle {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 90% !important;
+  height: 40px !important;
+  color: black !important;
+  margin-left: 10rem !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.consultationinputcategory {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 150% !important;
+  height: 40px !important;
+  color: black !important;
+  margin-left: 0.5rem !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.ant-select-selection-placeholder {
+  margin: auto !important;
+}
+.ant-select-arrow {
+  right: 20px !important;
+  color: black !important;
+}
+
+.consultationdescription {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 300% !important;
+  height: 100px !important;
+  color: black !important;
+  margin-left: 1.2rem !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+  margin-top: 0.5rem !important;
+}
+.consultationdate {
+  margin-bottom: 1rem !important;
+  margin-left: 1rem !important;
+  margin-top: -0.5rem !important;
+}
+
+.consultationtime {
+  margin-left: 20rem !important;
+  margin-top: -4rem !important;
+}
+
+.consultationdt {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 30% !important;
+  height: 50px !important;
+  color: black !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.ant-picker-content {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.1rem !important;
+}
+
+.ant-picker-input input::placeholder {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+}
+
+.ant-picker-cell-in-view {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.1rem !important;
+}
+
+.consultationicon {
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-top: 0rem !important;
+}
+
+.consultationbookicon {
+  width: 55px;
+  height: 55px;
+  border: none;
+  margin-top: -0.01rem !important;
+}
+
+.consultationbooknow {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.3rem !important;
+  border: none !important;
+  margin-bottom: 2rem !important;
+  margin-left: 0.2rem !important;
+}
+
+.consultaitoncheckavailability {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.3rem !important;
+  border: none !important;
+  margin-left: 0.2rem !important;
+}
+
+/* Toasters */
+.toasters {
+  max-width: max-content !important;
+}
+
+/* Explore Cases */
+.casecards {
+  width: 400px !important;
+  /* margin-top: 3rem !important;
+  margin-left: 30rem !important; */
+  border: solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 2px 2px 0 #c6bef5, 0 2px 20px 0 #c6bef5;
+}
+
+.ant-card-cover img {
+  /* border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important; */
+  object-fit: stretch !important;
+  /* width: 390px !important;
+  height: 100px !important; */
+}
+
+.cardbodystyle {
+  object-fit: cover !important;
+  height: 100px !important;
+}
+
+.highlightcard {
+  width: 1000px !important;
+  height: 550px !important;
+  border: solid !important;
+  border-width: 0.1rem !important;
+  margin-top: 3rem !important;
+  margin-left: 15rem !important;
+}
+
+.highlightcard img {
+  width: 1000px !important;
+  height: 400px !important;
+}
+
+.highlightcardbodystyle {
+  object-fit: fill !important;
+  height: 100px !important;
+  width: 650px !important;
+}
+.explorecasecards {
+  width: 1000px !important;
+  /* margin-top: 3rem !important;
+                margin-left: 3rem !important; */
+  border: solid !important;
+  border-width: 0.1rem !important;
+  margin-top: 3rem !important;
+  margin-left: 15rem !important;
+}
+.explorecasecards img {
+  width: 1000px !important;
+  object-fit: stretch !important;
+}
+
+.blogspot {
+  font-family: "Source Serif Pro" !important;
+  font-size: 11rem !important;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+/* Blogs Detail */
+.blogsdetail {
+  font-family: "Source Serif Pro" !important;
+  font-size: 6rem !important;
+  font-weight: 200 !important;
+  text-align: center !important;
+  margin-top: 2.5rem !important;
+}
+
+.blogdetailtitle {
+  font-family: "Source Serif Pro" !important;
+  font-size: 3rem !important;
+  font-weight: 400 !important;
+  text-align: left !important;
+  margin-top: 2.5rem !important;
+  margin-left: 4rem !important;
+}
+
+.blogpublishdate {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+  margin-left: 4rem !important;
+}
+
+.blogdetailimage {
+  max-width: 600px !important;
+  height: 500px !important;
+  object-fit: fill !important;
+  max-width: fit-content !important;
+  margin-top: 2.5rem !important;
+  margin-left: 22rem !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.blogdetaildescription {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.4rem !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+  margin-left: 4rem !important;
+  justify-content: center !important;
+  text-align: justify !important;
+  margin-right: 4rem !important;
+}
+
+/*Follow*/
+.follow {
+  justify-content: end;
+  margin-top: 5rem;
+  background-color: black;
+  font-family: "Source Serif Pro" !important;
+  font-size: 3rem !important;
+  color: #4e3ee5;
+  height: 300px;
+  text-align: center;
+}
+
+.followtext {
+  color: #4e3ee5;
+  padding-top: 70px;
+}
+
+.followicons {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #4e3ee5;
+}
+
+.footerend {
+  color: #4e3ee5;
+  padding-top: 50px;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1rem !important;
+  padding-top: 0rem !important;
+}
+
+.followfootericons {
+  color: #4e3ee5 !important;
+  position: relative;
+  top: -52px;
+  margin-right: -8rem;
+  transform: translate(10rem, 10rem);
+  font-size: 2rem !important;
+  text-decoration: none !important;
+}
+
+/* User List */
+.ant-pagination {
+  display: none !important;
+}
+
+/* Profile */
+.imageselector {
+  margin-left: 3rem !important;
+  margin-top: 3rem !important;
+}
+.imageselector label {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  padding-right: 1rem !important;
+  text-align: center !important;
+  margin-top: 0.5rem !important;
+}
+.pictureselector.ant-select-item-option {
+  width: 80px !important;
+  text-align: center !important;
+}
+
+.pictureselector.ant-select-dropdown {
+  min-width: 80px !important;
+  width: 80px !important;
+}
+.pictureselector.ant-select-show-arrow {
+  width: 80px !important;
+}
+.pictureselector span {
+  font-family: "Source Serif Pro" !important;
+  font-size: 0.8rem !important;
+}
+
+.pictureselector.ant-select-selection-item img {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.pictureselector.ant-select-selector {
+  width: 70px !important;
+}
+
+.uploadcolumn {
+  margin-left: 3rem !important;
+}
+
+.updateprofile {
+  margin-left: 3rem !important;
+}
+
+.profilepicturecard {
+  /* border-radius: 50% !important; */
+  height: 200px !important;
+  border: none !important;
+  margin-left: 3rem !important;
+}
+
+.setpicture {
+  background-color: #4e3ee5 !important;
+  color: white !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  border-radius: 0.4rem !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-left: 3rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.setpicture span {
+  color: white !important;
+  display: flex !important;
+  margin-top: -0.9rem !important;
+}
+
+.setpicture:hover {
+  background-color: black !important;
+}
+
+.profilepicture {
+  width: 220px !important;
+  height: 220px !important;
+  border-radius: 50% !important;
+}
+
+.uploadpicture {
+  background-color: #4e3ee5 !important;
+  color: white !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  border-radius: 0.4rem !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-left: 1.4rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.uploadpicture span {
+  color: white !important;
+  display: flex !important;
+  margin-top: -0.9rem !important;
+}
+
+.uploadpicture:hover {
+  background-color: black !important;
+}
+
+.ppoption img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.changenameinput {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  width: 30% !important;
+  height: 40px !important;
+  color: black !important;
+  margin-left: 3rem !important;
+  margin-top: 0rem !important;
+  border-radius: 0.4rem !important;
+  border-color: #4e3ee5 !important;
+}
+
+.changenameinputbtn {
+  background-color: #4e3ee5 !important;
+  color: white !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  border-style: none !important;
+  border-radius: 0.4rem !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  margin-left: 3rem !important;
+  margin-top: -3rem !important;
+}
+
+.changenameinputbtn span {
+  color: white !important;
+  display: flex !important;
+  margin-top: -0.9rem !important;
+}
+
+.changenameinputbtn:hover {
+  background-color: black !important;
+}
+
+/* Dashboard */
+.manaliprofilepicture {
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 50% !important;
+  margin-left: 7rem !important;
+  margin-top: 2rem !important;
+}
+
+.latestappointmentcard {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  margin-left: -3rem !important;
+  margin-top: 4.5rem !important;
+  border: 0.1rem solid !important;
+  border-radius: 1rem !important;
+  border-color: #c6bef5 !important;
+  box-shadow: 0 6px 6px 0 #c6bef5, 0 4px 10px 0 #c6bef5;
+}
+
+.latestappointmentcard h3 {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.8rem !important;
+}
+
+.latestappointmentcard h5 {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  font-weight: 300 !important;
+}
+
+.slash {
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.2rem !important;
+  color: black !important;
+  padding: 0rem 0.2rem !important;
+}
+
+/* Responsive */
+
+/*Done*/
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  .navbrand {
+    font-size: 2.4rem !important;
+    margin-left: -12rem !important;
+  }
+
+  .navbar-nav {
+    margin-right: -14rem !important;
+  }
+
+  .contenttext {
+    width: 1370px;
+    margin-top: 10rem !important;
+    margin-left: 14rem !important;
+  }
+  .h1text {
+    font-size: 6rem;
+    width: 700px;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .image1 {
+    display: block;
+    width: 610px !important;
+    height: 780px !important;
+    margin-top: -40rem !important;
+    margin-left: 70rem !important;
+  }
+  .btn-contact {
+    margin-left: 0rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 8rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 17rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 6rem !important;
+    margin-left: 19.5rem !important;
+    margin-top: -5.5rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: 0rem !important;
+    width: 300px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.8rem !important;
+    margin-left: 14rem;
+  }
+  .specialitycard {
+    width: 250px !important;
+    height: 220px !important;
+    margin: 1.5rem 1rem 1rem 1.5rem !important;
+  }
+  .specialityimage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .cardgroup {
+    width: 1000px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -2rem !important;
+    margin-left: -10rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -2rem !important;
+    margin-left: 10rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    font-size: 1.8rem !important;
+    margin-left: 14rem;
+  }
+  .consultationimages {
+    width: 500px;
+    height: 500px;
+    margin: 4rem 0rem 2rem 14rem;
+  }
+  .booknowcard {
+    margin-top: 5.3rem !important;
+    margin-left: 14rem !important;
+    width: 500px !important;
+    height: 200px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 18rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 1400px;
+  }
+  .h3-aboutme {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 14rem;
+    margin-bottom: 1rem;
+    line-height: 5rem;
+    text-align: justify;
+    width: 900px !important;
+  }
+  .manali-about-me {
+    width: 400px !important;
+    height: 550px !important;
+    margin-left: 4rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 9.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: 7rem !important;
+  }
+  .highlightcard {
+    width: 1000px !important;
+    height: 550px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 22rem !important;
+  }
+
+  .highlightcard img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 100px !important;
+    width: 650px !important;
+  }
+  .explorecasecards {
+    width: 1000px !important;
+    /* margin-top: 3rem !important;
+                  margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 22rem !important;
+  }
+  .explorecasecards img {
+    width: 1000px !important;
+    object-fit: contain !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 10rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 5rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 890px !important;
+    height: 650px !important;
+    margin-left: 34rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    line-height: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 18rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 28rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .navbrand {
+    font-size: 2.2rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .navbar-nav {
+    margin-right: -2rem !important;
+  }
+
+  .contenttext {
+    width: 1370px;
+    margin-top: 10rem !important;
+  }
+  .h1text {
+    font-size: 4.4rem;
+    width: 550px;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .image1 {
+    display: block;
+    width: 510px !important;
+    height: 580px !important;
+    margin-top: -32rem !important;
+    margin-left: 48rem !important;
+  }
+  .btn-contact {
+    margin-left: 0rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 8rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 17rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 6rem !important;
+    margin-left: 19.5rem !important;
+    margin-top: -4.8rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: 0rem !important;
+    width: 300px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.8rem !important;
+    margin-left: 4rem;
+  }
+  .specialitycard {
+    width: 250px !important;
+    height: 220px !important;
+    margin: 1.5rem 1rem 1rem 1.5rem !important;
+  }
+  .specialityimage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .cardgroup {
+    width: 1000px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -2rem !important;
+    margin-left: 1rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -2rem !important;
+    margin-left: -1rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    font-size: 1.8rem !important;
+    margin-left: 4rem;
+  }
+  .consultationimages {
+    width: 500px;
+    height: 500px;
+    margin: 4rem 0rem 2rem 8rem;
+  }
+  .booknowcard {
+    margin-top: 5.3rem !important;
+    margin-left: 3rem !important;
+    width: 500px !important;
+    height: 200px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 18rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 1400px;
+  }
+  .h3-aboutme {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    line-height: 5rem;
+    text-align: justify;
+    width: 700px !important;
+  }
+  .manali-about-me {
+    width: 400px !important;
+    height: 550px !important;
+    margin-left: -1rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 9.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: 7rem !important;
+  }
+  .highlightcard {
+    width: 1000px !important;
+    height: 550px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcard img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 100px !important;
+    width: 650px !important;
+  }
+  .explorecasecards {
+    width: 1000px !important;
+    /* margin-top: 3rem !important;
+                  margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards img {
+    width: 1000px !important;
+    object-fit: contain !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 10rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 5rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 890px !important;
+    height: 650px !important;
+    margin-left: 18rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 28rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1194px) {
+  .navbrand {
+    font-size: 2.2rem !important;
+    margin-left: -3rem !important;
+  }
+
+  .navbar-nav {
+    margin-right: -4rem !important;
+  }
+
+  .contenttext {
+    width: 1370px;
+    margin-top: 10rem !important;
+  }
+  .h1text {
+    font-size: 4rem;
+    width: 500px;
+    margin-top: 0rem;
+    margin-left: -2.5rem;
+  }
+  .image1 {
+    display: block;
+    width: 500px !important;
+    height: 580px !important;
+    margin-top: -30rem !important;
+    margin-left: 38rem !important;
+  }
+  .btn-contact {
+    margin-left: -2rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 8rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 17rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 6rem !important;
+    margin-left: 17.5rem !important;
+    margin-top: -4.8rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: -2rem !important;
+    width: 300px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.8rem !important;
+    margin-left: 4rem;
+  }
+  .specialitycard {
+    width: 250px !important;
+    height: 220px !important;
+    margin: 1.5rem 1rem 1rem 1.5rem !important;
+  }
+  .specialityimage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .cardgroup {
+    width: 1000px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -4rem !important;
+    margin-left: 5rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -4rem !important;
+    margin-left: -5rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    font-size: 1.8rem !important;
+    margin-left: 4rem;
+  }
+  .consultationimages {
+    width: 400px;
+    height: 400px;
+    margin: 4rem 0rem 2rem 8rem;
+  }
+  .booknowcard {
+    margin-top: 3.7rem !important;
+    margin-left: 3rem !important;
+    width: 350px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 14rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 1000px;
+  }
+  .h3-aboutme {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    text-align: justify;
+    width: 600px !important;
+  }
+  .manali-about-me {
+    width: 380px !important;
+    height: 490px !important;
+    margin-left: -5rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 8.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: 0.5rem !important;
+  }
+  .highlightcard {
+    width: 1000px !important;
+    height: 550px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcard img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 100px !important;
+    width: 650px !important;
+  }
+  .explorecasecards {
+    width: 1000px !important;
+    /* margin-top: 3rem !important;
+                margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards img {
+    width: 1000px !important;
+    object-fit: contain !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 9rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 3rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 720px !important;
+    height: 500px !important;
+    margin-left: 15rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 20rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+  .navbrand {
+    font-size: 2rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .navbar-nav {
+    margin-right: -1rem !important;
+  }
+
+  .contenttext {
+    width: 1350px;
+    margin-top: 10rem !important;
+  }
+  .h1text {
+    font-size: 4rem;
+    width: 500px;
+    margin-top: -4rem;
+    margin-left: -4.5rem;
+  }
+  .image1 {
+    display: block;
+    width: 480px !important;
+    height: 520px !important;
+    margin-top: -28rem !important;
+    margin-left: 33rem !important;
+  }
+  .btn-contact {
+    margin-left: -4rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 8rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 17rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 6rem !important;
+    margin-left: 15.5rem !important;
+    margin-top: -4.8rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.2rem !important;
+    height: 3rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: -4rem !important;
+    width: 300px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.8rem !important;
+    margin-left: 4rem;
+  }
+  .specialitycard {
+    width: 150px !important;
+    height: 180px !important;
+    margin: 1.5rem 1rem 1rem 1.5rem !important;
+  }
+  .specialityimage {
+    width: 140px;
+    height: 140px;
+  }
+
+  .cardgroup {
+    width: 900px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -4rem !important;
+    margin-left: 5rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -4rem !important;
+    margin-left: -5rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    font-size: 1.8rem !important;
+    margin-left: 4rem;
+  }
+  .consultationimages {
+    width: 400px;
+    height: 400px;
+    margin: 4rem 0rem 2rem 4rem;
+  }
+  .booknowcard {
+    margin-top: 3.7rem !important;
+    margin-left: 3rem !important;
+    width: 350px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 14rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 900px;
+  }
+  .h3-aboutme {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    text-align: justify;
+    width: 500px !important;
+  }
+  .manali-about-me {
+    width: 380px !important;
+    height: 550px !important;
+    margin-left: -5rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 8.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: 0.5rem !important;
+  }
+  .highlightcard {
+    width: 950px !important;
+    height: 500px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcard img {
+    width: 950px !important;
+    height: 360px !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 100px !important;
+    width: 650px !important;
+  }
+  .explorecasecards {
+    width: 950px !important;
+    /* margin-top: 3rem !important;
+              margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards img {
+    width: 950px !important;
+    object-fit: contain !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 5rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 3rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 720px !important;
+    height: 500px !important;
+    margin-left: 11rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 18rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 883px) and (max-width: 926px) {
+  .navbrand {
+    font-size: 2rem !important;
+  }
+  .contenttext {
+    width: 800px;
+    margin-top: 10rem !important;
+  }
+  .h1text {
+    font-size: 3rem;
+    width: 350px;
+    margin-top: -4rem;
+    margin-left: -2rem;
+  }
+  .image1 {
+    display: block;
+    width: 280px !important;
+    height: 320px !important;
+    margin-top: -22rem !important;
+    margin-left: 34rem !important;
+  }
+  .btn-contact {
+    margin-left: -2rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1rem !important;
+    height: 2.6rem !important;
+    width: 7rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1rem !important;
+    height: 2.6rem !important;
+    width: 13rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 1rem !important;
+    height: 2.3rem !important;
+    width: 6rem !important;
+    margin-left: 15.5rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: -2rem !important;
+    width: 260px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.2rem !important;
+    margin-left: 4rem;
+  }
+  .specialitycard {
+    width: 100px !important;
+    height: 180px !important;
+    margin: 1.5rem 1rem 1rem 1.5rem !important;
+  }
+  .specialityimage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cardgroup {
+    width: 750px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -4rem !important;
+    margin-left: 5rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -4rem !important;
+    margin-left: -5rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    font-size: 1.2rem !important;
+  }
+  .consultationimages {
+    width: 300px;
+    height: 300px;
+    margin: 6rem 0rem 2rem 4rem;
+  }
+  .booknowcard {
+    margin-left: -0.8rem !important;
+    width: 350px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 14rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 850px;
+  }
+  .h3-aboutme {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    width: 380px !important;
+  }
+  .manali-about-me {
+    width: 220px !important;
+    height: 300px;
+    margin-left: -2rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 7.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: 2.5rem !important;
+  }
+  .highlightcard .ant-card-cover {
+    width: 390px !important;
+    height: 260px !important;
+  }
+  .highlightcard img {
+    width: 720px !important;
+    height: 260px !important;
+  }
+
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 100px !important;
+  }
+
+  .highlightcard {
+    width: 720px !important;
+    height: 400px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 400px !important;
+  }
+  .explorecasecards {
+    width: 720px !important;
+    height: 200px !important;
+    /* margin-top: 3rem !important;
+    margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 6rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards .ant-card-cover {
+    width: 720px !important;
+    height: 100px !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 5rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 3rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 620px !important;
+    height: 400px !important;
+    margin-left: 8rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 14rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 854px) {
+  .navbrand {
+    font-size: 2rem !important;
+  }
+  .contenttext {
+    width: 800px;
+    margin-top: 10rem !important;
+  }
+  .h1text {
+    font-size: 3rem;
+    width: 350px;
+    margin-top: -4rem;
+    margin-left: -4rem;
+  }
+  .image1 {
+    display: block;
+    width: 280px !important;
+    height: 320px !important;
+    margin-top: -20rem !important;
+    margin-left: 31rem !important;
+  }
+  .btn-contact {
+    margin-left: -4rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1rem !important;
+    height: 2.6rem !important;
+    width: 7rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 1rem !important;
+    height: 2.6rem !important;
+    width: 13rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 1rem !important;
+    height: 2.3rem !important;
+    width: 6rem !important;
+    margin-left: 13.5rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: -4rem !important;
+    width: 260px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.2rem !important;
+    margin-left: 4rem;
+  }
+  .specialitycard {
+    width: 100px !important;
+    height: 180px !important;
+    margin: 1.5rem 1rem 1rem 1.5rem !important;
+  }
+  .specialityimage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cardgroup {
+    width: 750px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -4rem !important;
+    margin-left: 5rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -4rem !important;
+    margin-left: -5rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    font-size: 1.2rem !important;
+  }
+  .consultationimages {
+    width: 300px;
+    height: 300px;
+    margin: 6rem 0rem 2rem 4rem;
+  }
+  .booknowcard {
+    margin-left: -0.8rem !important;
+    width: 350px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 14rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 850px;
+  }
+  .h3-aboutme {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    width: 380px !important;
+  }
+  .manali-about-me {
+    width: 220px !important;
+    height: 300px;
+    margin-left: -2rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 6.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: -1.5rem !important;
+  }
+  .highlightcard .ant-card-cover {
+    width: 390px !important;
+    height: 260px !important;
+  }
+  .highlightcard img {
+    width: 600px !important;
+    height: 260px !important;
+  }
+
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 100px !important;
+  }
+
+  .highlightcard {
+    width: 600px !important;
+    height: 432px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 400px !important;
+  }
+  .explorecasecards {
+    width: 600px !important;
+    height: 200px !important;
+    /* margin-top: 3rem !important;
+    margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 6rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards .ant-card-cover {
+    width: 600px !important;
+    height: 100px !important;
+  }
+
+  .highlightcard {
+    width: 700px !important;
+    height: 400px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcard img {
+    width: 700px !important;
+    height: 260px !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 100px !important;
+    width: 650px !important;
+  }
+  .explorecasecards {
+    width: 700px !important;
+    /* margin-top: 3rem !important;
+          margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards img {
+    width: 700px !important;
+    object-fit: scale-down !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 5rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 3rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 620px !important;
+    height: 400px !important;
+    margin-left: 6rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 11rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 700px) {
+  .navbrand {
+    font-size: 2rem !important;
+  }
+  .contenttext {
+    width: 700px;
+    margin-top: 8rem !important;
+  }
+  .h1text {
+    font-size: 2.2rem;
+    width: 280px;
+    margin-top: -4rem;
+    margin-left: -4rem;
+  }
+  .image1 {
+    display: block;
+    width: 280px !important;
+    height: 320px !important;
+    margin-top: -19rem !important;
+    margin-left: 22rem !important;
+  }
+  .btn-contact {
+    margin-left: -4rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.8em !important;
+    height: 2rem !important;
+    width: 5rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.8em !important;
+    height: 2rem !important;
+    width: 11rem !important;
+  }
+  .btn-signup {
+    padding: 0rem 0rem !important;
+    font-size: 0.8em !important;
+    height: 2rem !important;
+    width: 4rem !important;
+    margin-left: 9rem !important;
+    margin-top: -3.8rem !important;
+  }
+
+  .signupnewsletter {
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+    width: 150px !important;
+  }
+  .signupnewsletter input {
+    margin-left: -4rem !important;
+    width: 205px !important;
+  }
+  .speciality {
+    margin-top: 7rem;
+  }
+  .h3-sp {
+    font-size: 1.2rem !important;
+    margin-left: 4rem;
+  }
+  .specialitycard {
+    width: 80px !important;
+    height: 140px !important;
+    margin: 1.5rem 1rem 1rem 0.6rem !important;
+  }
+  .specialityimage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardgroup {
+    width: 550px !important;
+    height: 350px !important;
+    margin-top: 1rem !important;
+    margin-bottom: -3rem !important;
+    margin-bottom: -7rem !important;
+  }
+
+  .normalportcards {
+    display: block !important;
+  }
+
+  .mobilecards {
+    display: none !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -6rem !important;
+    margin-left: 2rem !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -6rem !important;
+    margin-left: -2rem !important;
+  }
+
+  .consult-text-h2 {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-bottom: -2rem !important;
+    font-size: 1.2rem !important;
+  }
+  .consultationimages {
+    width: 200px;
+    height: 200px;
+    margin: 10rem 0rem 2rem 3rem;
+  }
+  .booknowcard {
+    margin-left: -4rem !important;
+    width: 350px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 14rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 700px;
+  }
+  .h3-aboutme {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+    text-align: justify;
+    word-spacing: 0.5rem !important;
+    width: 320px !important;
+  }
+  .manali-about-me {
+    width: 220px !important;
+    height: 300px;
+    margin-left: -6rem;
+    margin-top: -0.5rem !important;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 6.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: -1.5rem !important;
+  }
+  .highlightcard .ant-card-cover {
+    width: 390px !important;
+    height: 260px !important;
+  }
+  .highlightcard img {
+    width: 600px !important;
+    height: 260px !important;
+  }
+
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 100px !important;
+  }
+
+  .highlightcard {
+    width: 600px !important;
+    height: 432px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 400px !important;
+  }
+  .explorecasecards {
+    width: 600px !important;
+    height: 200px !important;
+    /* margin-top: 3rem !important;
+    margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 6rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards .ant-card-cover {
+    width: 600px !important;
+    height: 100px !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 5rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 3rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 520px !important;
+    height: 400px !important;
+    margin-left: 4rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 600px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 6rem !important;
+    width: 450px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+
+  .registerholders {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 1.2rem !important;
+  }
+  .btn-register {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 17rem !important;
+    font-size: 1rem !important;
+  }
+
+  .btn-login {
+    font-size: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 428px) {
+  .navbrand {
+    margin-left: 1rem !important;
+    font-size: 1.8rem !important;
+  }
+  .contenttext {
+    width: 400px !important;
+  }
+  .h1text {
+    font-size: 2.4rem;
+    width: 280px;
+    margin-top: -6rem;
+    margin-left: -5rem;
+  }
+  .image1 {
+    display: none;
+  }
+  .btn-contact {
+    margin-left: -5rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.9rem !important;
+    height: 2rem !important;
+    width: 6rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.9rem !important;
+    height: 2rem !important;
+    width: 12rem !important;
+  }
+  .btn-signup {
+    margin-top: -3.8rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.9rem !important;
+    height: 2rem !important;
+    margin-left: 10rem !important;
+    width: 4.5rem !important;
+  }
+
+  .signupnewsletter {
+    margin-left: -5rem !important;
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.85rem !important;
+    width: 210px !important;
+  }
+  .signupnewsletter input {
+    margin-left: 0rem !important;
+    width: 230px !important;
+  }
+  .speciality {
+    margin-top: 3rem;
+  }
+  .h3-sp {
+    font-size: 1.2rem !important;
+    margin-left: 2rem;
+  }
+  .specialitycard {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 1.5rem 1rem 1rem 7.5rem !important;
+  }
+  .specialityimage {
+    width: 90px;
+    height: 90px;
+  }
+
+  .normalportcards {
+    display: none !important;
+  }
+
+  .mobilecards {
+    display: block !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .consult-text-h2 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 1.2rem !important;
+  }
+  .consultationimages {
+    width: 200px;
+    height: 200px;
+    margin: 3rem 0rem 2rem 6rem;
+  }
+  .booknowcard {
+    margin-left: 1.8rem !important;
+    width: 350px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1.2rem !important;
+    border-style: none !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 14rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 350px;
+  }
+  .h3-aboutme {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    width: 350px !important;
+  }
+  .manali-about-me {
+    width: 220px !important;
+    height: 300px;
+    margin-left: 7rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 300px;
+    text-align: center;
+  }
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 4.5rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: -1.7rem !important;
+  }
+  .highlightcard .ant-card-cover {
+    width: 360px !important;
+    height: 160px !important;
+  }
+  .highlightcard .ant-card-body {
+    width: 360px !important;
+    height: 200px !important;
+  }
+
+  .highlightcard img {
+    width: 360px !important;
+    height: 160px !important;
+  }
+
+  .highlightcard {
+    width: 360px !important;
+    height: 380px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 380px !important;
+  }
+  .explorecasecards {
+    width: 360px !important;
+    height: 250px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 2rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards .ant-card-cover {
+    width: 320px !important;
+    height: 100px !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 3rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 2rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 300px !important;
+    height: 300px !important;
+    margin-left: 4rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 350px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 1.5rem !important;
+    width: 330px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+
+  .registerholders {
+    width: 300px !important;
+    height: 40px !important;
+    font-size: 1rem !important;
+  }
+  .btn-register {
+    font-size: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 0.8rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 11rem !important;
+  }
+
+  .btn-login {
+    font-size: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 0.8rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 390px) {
+  /*Home Page*/
+  .navbrand {
+    margin-left: 1rem !important;
+    font-size: 1.7rem !important;
+  }
+  .contenttext {
+    width: 390px !important;
+  }
+  .h1text {
+    font-size: 2.2rem;
+    width: 280px;
+    margin-top: -4rem;
+    margin-left: -5rem;
+  }
+  .image1 {
+    display: none;
+  }
+  .btn-contact {
+    margin-left: -5rem !important;
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.8rem !important;
+    height: 2rem !important;
+    width: 5rem !important;
+  }
+  .btn-case {
+    margin-right: 0.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.8rem !important;
+    height: 2rem !important;
+    width: 11rem !important;
+  }
+  .btn-signup {
+    margin-top: -3.8rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 0.8rem !important;
+    height: 2rem !important;
+    margin-left: 8rem !important;
+    width: 4rem !important;
+  }
+
+  .signupnewsletter {
+    margin-left: -5rem !important;
+    margin-top: 1rem !important;
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.75rem !important;
+    width: 190px !important;
+  }
+  .signupnewsletter input {
+    margin-left: 0rem !important;
+    width: 200px !important;
+  }
+  .speciality {
+    margin-top: 2rem;
+  }
+  .h3-sp {
+    font-size: 1rem !important;
+    font-weight: 300;
+    margin-left: 2rem;
+  }
+  .specialitycard {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 1.5rem 1rem 1rem 7.5rem !important;
+  }
+  .specialityimage {
+    width: 90px;
+    height: 90px;
+  }
+
+  .normalportcards {
+    display: none !important;
+  }
+
+  .mobilecards {
+    display: block !important;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .consult-text-h2 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 1rem !important;
+    font-weight: 300;
+  }
+  .consultationimages {
+    width: 200px;
+    height: 200px;
+    margin: 3rem 0rem 1rem 5rem;
+  }
+  .booknowcard {
+    margin-left: 1.2rem !important;
+    width: 320px !important;
+    height: 180px !important;
+  }
+  .doctext {
+    font-size: 1.2rem !important;
+  }
+  .docbody {
+    font-size: 1.2rem !important;
+  }
+  .btn-doc {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .patienttext {
+    font-size: 1.2rem !important;
+  }
+
+  .patientbody {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-patient {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .cardimageconsult {
+    width: 30%;
+    margin-left: 12rem !important;
+    margin-top: -5rem !important;
+  }
+  .aboutmerow {
+    width: 320px !important;
+    margin-top: 1rem !important;
+  }
+  .h3-aboutme {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    width: 300px !important;
+  }
+  .manali-about-me {
+    width: 220px !important;
+    height: 300px !important;
+    margin-left: 5rem;
+  }
+  .follow {
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem !important;
+    color: #4e3ee5;
+    height: 350px;
+    text-align: center;
+  }
+
+  .followtext {
+    color: #4e3ee5;
+    padding-top: 40px;
+  }
+
+  .followicons {
+    margin-right: 1px !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .footerend {
+    color: #4e3ee5;
+    padding-top: 50px;
+    font-family: "Source Serif Pro" !important;
+    font-size: 1rem !important;
+    padding-top: 0rem !important;
+  }
+
+  .followfootericons {
+    position: relative;
+    top: -52px;
+    margin-right: -8rem;
+    transform: translate(10rem, 10rem);
+    font-size: 2rem !important;
+  }
+
+  /*Explore Cases*/
+
+  .blogspot {
+    font-size: 4rem !important;
+    font-weight: 200;
+  }
+  .explorecasecardcol {
+    margin-left: -1rem !important;
+  }
+
+  .highlightcard .ant-card-cover {
+    width: 300px !important;
+    height: 260px !important;
+  }
+  .highlightcard img {
+    width: 300px !important;
+    height: 260px !important;
+  }
+
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 100px !important;
+  }
+
+  .highlightcard {
+    width: 300px !important;
+    height: 502px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 400px !important;
+  }
+  .explorecasecards {
+    width: 300px !important;
+    height: 250px !important;
+    /* margin-top: 3rem !important;
+    margin-left: 3rem !important; */
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 2rem !important;
+    margin-left: 3rem !important;
+  }
+  .explorecasecards .ant-card-cover {
+    width: 300px !important;
+    height: 100px !important;
+  }
+  /* Blogs Detail */
+  .blogsdetail {
+    font-size: 3rem !important;
+    font-weight: 200 !important;
+  }
+
+  .blogdetailtitle {
+    font-size: 2rem !important;
+    text-align: left !important;
+    margin-top: 2.5rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .blogpublishdate {
+    margin-left: 2rem !important;
+  }
+
+  .blogdetailimage {
+    max-width: 200px !important;
+    height: 200px !important;
+    margin-left: 4rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  /* Register Now  Login Now*/
+
+  .registerrow {
+    margin-left: 1rem !important;
+    margin-bottom: 6rem !important;
+    width: 350px !important;
+  }
+
+  .registercard {
+    margin: 2rem 0rem 0rem 1rem !important;
+    width: 330px !important;
+  }
+
+  .registercard .card-title {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+
+  .registerholders {
+    width: 300px !important;
+    height: 40px !important;
+    font-size: 1rem !important;
+  }
+  .btn-register {
+    font-size: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .loginlink {
+    font-size: 0.8rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .showpassword {
+    margin-left: 11rem !important;
+  }
+
+  .btn-login {
+    font-size: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .registerlink {
+    font-size: 0.8rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+/*Dashboard*/
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 50% !important;
+    margin-left: 7rem !important;
+    margin-top: 4rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 5rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.6rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 60% !important;
+    height: 60px !important;
+    margin-left: 20.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 160% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 165% !important;
+    height: 250px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 320px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 40% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 170% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 280px !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 6rem;
+    margin-left: 12rem;
+    width: 450px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1440px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 50% !important;
+    margin-left: 7rem !important;
+    margin-top: 4rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 5rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.6rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 60% !important;
+    height: 60px !important;
+    margin-left: 20.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 160% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 165% !important;
+    height: 250px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 320px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 40% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 170% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 280px !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width: 450px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1360px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 50% !important;
+    margin-left: 5rem !important;
+    margin-top: 4rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 3rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.6rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 60% !important;
+    height: 60px !important;
+    margin-left: 20.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 160% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 165% !important;
+    height: 250px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 320px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 40% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 170% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 280px !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width: 400px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1194px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 50% !important;
+    margin-left: 1rem !important;
+    margin-top: 4rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.6rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+    margin-left: 11.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 160% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 90% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 165% !important;
+    height: 250px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 320px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 40% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 170% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 280px !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 6rem;
+    margin-left: 2rem;
+    width: 350px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 50% !important;
+    margin-left: 1rem !important;
+    margin-top: 4rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 350px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.6rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+    margin-left: 11.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 160% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 90% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 165% !important;
+    height: 250px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 320px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 40% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 170% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 280px !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 6rem;
+    margin-left: 2rem;
+    width: 350px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 883px) and (max-width: 926px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: 1rem !important;
+    margin-top: 6rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 300px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.4rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 90% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 140% !important;
+    height: 150px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 180px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 40% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 150% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 280px !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    width: 280px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 854px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    margin-left: 1rem !important;
+    margin-top: 5rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 250px !important;
+    height: 400px !important;
+    margin-top: 2rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1.2rem !important;
+    margin-top: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.4rem !important;
+    width: 90% !important;
+    height: 60px !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.4rem !important;
+    width: 140% !important;
+    height: 150px !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .ant-select-selector {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .consultationdt.ant-picker {
+    font-size: 1.4rem !important;
+    width: 120% !important;
+    height: 60px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultationicon {
+    width: 45px;
+    height: 45px;
+    margin-top: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-top: 0rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+  .consultationbooknow span {
+    margin-left: 1rem !important  ;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+    padding-top: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+  .consultaitoncheckavailability span {
+    margin-left: 1rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 180px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 80% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1.4rem !important;
+    width: 150% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1.4rem !important;
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .blogimageinput {
+    font-size: 1.4rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 8rem;
+    margin-left: 2rem;
+    width: 220px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 700px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: 1rem !important;
+    margin-top: 5rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: 0rem !important;
+    width: 200px !important;
+    height: 300px !important;
+    margin-top: 2rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1.2rem !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1.2rem !important;
+    width: 110% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1.2rem !important;
+    width: 110% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1.2rem !important;
+    width: 90% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationdescription {
+    font-size: 1.2rem !important;
+    width: 140% !important;
+    height: 70px !important;
+    margin-left: 0.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .consultationdt {
+    font-size: 1.2rem !important;
+    width: 70% !important;
+    height: 40px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .ant-select-selector {
+    font-size: 1.2rem !important;
+    width: 100% !important;
+    height: 40px !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .ant-picker {
+    font-size: 1.4rem !important;
+    margin-top: 0rem !important;
+    width: 90% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .consultationicon {
+    width: 35px;
+    height: 35px;
+    margin-top: -0.5rem !important;
+    margin-left: -0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 38px;
+    height: 38px;
+    border: none;
+    margin-top: -0.5rem !important;
+    margin-left: -0.2rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1.4rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1.4rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 290px !important;
+  }
+  .imageselector {
+    margin-left: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1.2rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 180px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: -1.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+    margin-top: -0.5rem !important;
+  }
+  .setpicture {
+    font-size: 1.2rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1.2rem !important;
+    width: 80% !important;
+    height: 40px !important;
+    color: black !important;
+    margin-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1.2rem !important;
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1rem !important;
+    width: 150% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1rem !important;
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .blogimageinput {
+    font-size: 1rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    width: 160px !important;
+  }
+  .uploadiconmobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 428px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: 1rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .latestappointmentcard {
+    margin-left: -6.2rem !important;
+    width: 200px !important;
+    height: 300px !important;
+    margin-top: 2rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1rem !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  /*Consultation Page */
+  .consultationinputtitle {
+    font-size: 1rem !important;
+    width: 110% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1rem !important;
+    width: 95% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1rem !important;
+    width: 90% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+  .consultationdescription {
+    font-size: 1rem !important;
+    width: 90% !important;
+    height: 70px !important;
+    margin-left: 0.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .consultationdt {
+    font-size: 1rem !important;
+    width: 70% !important;
+    height: 40px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .ant-select-selector {
+    font-size: 1rem !important;
+    width: 100% !important;
+    height: 40px !important;
+    margin-left: 0rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .ant-picker {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+    width: 90% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .consultationicon {
+    width: 25px;
+    height: 25px;
+    margin-top: -0.5rem !important;
+    margin-left: -0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 28px;
+    height: 28px;
+    border: none;
+    margin-top: -0.5rem !important;
+    margin-left: -0.2rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 190px !important;
+  }
+  .imageselector {
+    margin-left: 0.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 180px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: -2.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+  }
+  .setpicture {
+    font-size: 1rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1rem !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1rem !important;
+    width: 90% !important;
+    height: 30px !important;
+    color: black !important;
+    margin-left: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1rem !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1rem !important;
+    width: 150% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1rem !important;
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .blogimageinput {
+    font-size: 1rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    display: none;
+  }
+  .uploadiconmobile {
+    display: block !important;
+    width: 50px !important;
+    margin-top: 14rem !important;
+    margin-left: 1.5rem !important;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  /*Layout Home*/
+  .manaliprofilepicture {
+    display: none !important;
+  }
+  .latestappointmentcard {
+    margin-left: -6.2rem !important;
+    width: 200px !important;
+    height: 300px !important;
+    margin-top: 2rem !important;
+  }
+
+  .latestappointmentcard h3 {
+    font-size: 1rem !important;
+  }
+  .latestappointmentcard h5 {
+    font-size: 1rem !important;
+    margin-top: 1rem !important;
+  }
+
+  /*Consultation Page */
+  .consultationfeeinfo {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+    margin-left: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .consultationinputtitle {
+    font-size: 1rem !important;
+    width: 110% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+
+  .consultationinputcategory {
+    font-size: 1rem !important;
+    width: 95% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+  .consultationinput {
+    font-size: 1rem !important;
+    width: 90% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+  }
+  .consultationdescription {
+    font-size: 1rem !important;
+    width: 90% !important;
+    height: 70px !important;
+    margin-left: 0.5rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .consultationdt {
+    font-size: 1rem !important;
+    width: 70% !important;
+    height: 40px !important;
+    border-color: #4e3ee5 !important;
+    margin-left: 1rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .ant-select-selector {
+    font-size: 1rem !important;
+    width: 100% !important;
+    height: 40px !important;
+    margin-left: 0rem !important;
+  }
+
+  .ant-select {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .ant-picker {
+    font-size: 1rem !important;
+    margin-top: 0rem !important;
+    width: 90% !important;
+    height: 40px !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .consultationicon {
+    width: 25px;
+    height: 25px;
+    margin-top: -0.5rem !important;
+    margin-left: -0.5rem !important;
+  }
+
+  .consultationbookicon {
+    width: 28px;
+    height: 28px;
+    border: none;
+    margin-top: -0.5rem !important;
+    margin-left: -0.2rem !important;
+  }
+
+  .consultationbooknow {
+    font-size: 1rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .consultaitoncheckavailability {
+    font-size: 1rem !important;
+    border: none !important;
+    margin-left: 0.2rem !important;
+  }
+
+  /* Profile Picture */
+
+  .ant-col .imageselector {
+    width: 190px !important;
+  }
+  .imageselector {
+    margin-left: 0.5rem !important;
+    margin-top: 3rem !important;
+  }
+  .imageselector label {
+    font-size: 1rem !important;
+    padding-right: 0rem !important;
+    text-align: left !important;
+    margin-top: 0rem !important;
+  }
+  .profilepicturecard {
+    /* border-radius: 50% !important; */
+    height: 180px !important;
+    border: none !important;
+    margin-left: 3rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .profilepicture {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    margin-left: -2.4rem !important;
+  }
+
+  .pictureselector .ant-select {
+    height: 80px !important;
+  }
+  .pictureselector.ant-select-item-option {
+    width: 80px !important;
+    text-align: center !important;
+  }
+
+  .pictureselector.ant-select-dropdown {
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  .pictureselector.ant-select-show-arrow {
+    width: 100px !important;
+  }
+  .pictureselector span {
+    font-family: "Source Serif Pro" !important;
+    font-size: 0.8rem !important;
+  }
+
+  .pictureselector.ant-select-selection-item img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .pictureselector .ant-select-selector {
+    width: 85px !important;
+    height: 60px !important;
+  }
+  .setpicture {
+    font-size: 1rem !important;
+    border-radius: 0.4rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1rem !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+
+  .uploadcolumn {
+    margin-left: 3rem !important;
+  }
+
+  .updateprofile {
+    margin-left: 3rem !important;
+  }
+
+  .changenameinput {
+    font-size: 1rem !important;
+    width: 90% !important;
+    height: 30px !important;
+    color: black !important;
+    margin-left: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    border-color: #4e3ee5 !important;
+  }
+
+  .changenameinputbtn {
+    font-size: 1rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1rem !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: -1rem !important;
+  }
+  /* Blogs Upload*/
+  .blogtitleinput {
+    font-size: 1rem !important;
+    width: 150% !important;
+    margin: 40px 0px 10px 20px !important;
+  }
+
+  .blogdescriptioninput {
+    font-size: 1rem !important;
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .blogimageinput {
+    font-size: 1rem !important;
+    width: 110% !important;
+  }
+
+  .bloguploadbtn {
+    border-width: 0rem !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .uploadimage {
+    display: none;
+  }
+  .uploadiconmobile {
+    display: block !important;
+    width: 50px !important;
+    margin-top: 14rem !important;
+    margin-left: 1.5rem !important;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1da739e0.css",
+    "main.js": "/static/js/main.c7b1f0f1.js",
+    "static/media/11.jpg": "/static/media/11.811a892716931c595a31.jpg",
+    "static/media/3.jpg": "/static/media/3.c31c2d85ace69159ff73.jpg",
+    "static/media/1.jpg": "/static/media/1.4792c570a0a3ffbb5f19.jpg",
+    "static/media/10.jpg": "/static/media/10.d31c623110d093e30590.jpg",
+    "static/media/7.jpg": "/static/media/7.438b605acd7de7aa43d7.jpg",
+    "static/media/6.jpg": "/static/media/6.cf89562685cc686a1b8e.jpg",
+    "static/media/Manali-DT.png": "/static/media/Manali-DT.047491ec36d597a72424.png",
+    "static/media/8.jpg": "/static/media/8.e19953e1341a2906e878.jpg",
+    "static/media/9.jpg": "/static/media/9.d297128a24ace742fec5.jpg",
+    "static/media/DSC08639-1.png": "/static/media/DSC08639-1.ee87fb2f3fc302d44439.png",
+    "static/media/5.jpg": "/static/media/5.e5dd314a6fbf5b5f109d.jpg",
+    "static/media/dental-consult-4.png": "/static/media/dental-consult-4.ba84a856b4d9e4fed893.png",
+    "static/media/20220625-Splint.jpg": "/static/media/20220625-Splint.841fba6864861f0c50f8.jpg",
+    "static/media/20220625-Denture.jpg": "/static/media/20220625-Denture.5a96b057e3c2a7670a6b.jpg",
+    "static/media/20220625-Crown.jpg": "/static/media/20220625-Crown.6361a9dca179a387d1a7.jpg",
+    "static/media/20220625-Laminates.jpg": "/static/media/20220625-Laminates.332bf941aa761a5758da.jpg",
+    "static/media/20220625-RPD.jpg": "/static/media/20220625-RPD.bdc706b7239f8a42a4da.jpg",
+    "static/media/20220625-ISD.jpg": "/static/media/20220625-ISD.81502e3cf15636b9a3e4.jpg",
+    "static/media/20220625-Bridge.jpg": "/static/media/20220625-Bridge.5cf28df3709243980993.jpg",
+    "static/media/20220625-Implant.jpg": "/static/media/20220625-Implant.be91b5fdcb6c1b16f93a.jpg",
+    "static/media/7869470_download_man_upload_transfer_document_icon.png": "/static/media/7869470_download_man_upload_transfer_document_icon.028d9e19d584cb3590b8.png",
+    "static/media/6409057_calendar_date_event_schedule_icon.png": "/static/media/6409057_calendar_date_event_schedule_icon.2f95be2bbda2236390fd.png",
+    "static/media/4082902_appointment_booking_calendar_event_plan_icon.png": "/static/media/4082902_appointment_booking_calendar_event_plan_icon.71f6aeb275b0946f95ce.png",
+    "static/media/uploadicon.png": "/static/media/uploadicon.d9905c3805dd8395dad2.png",
+    "index.html": "/index.html",
+    "main.1da739e0.css.map": "/static/css/main.1da739e0.css.map",
+    "main.c7b1f0f1.js.map": "/static/js/main.c7b1f0f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1da739e0.css",
+    "static/js/main.c7b1f0f1.js"
+  ]
+}
