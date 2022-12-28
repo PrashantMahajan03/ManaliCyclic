@@ -1,18 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.1da739e0.css",
-    "main.js": "/static/js/main.c7b1f0f1.js",
-    "static/media/11.jpg": "/static/media/11.811a892716931c595a31.jpg",
-    "static/media/3.jpg": "/static/media/3.c31c2d85ace69159ff73.jpg",
-    "static/media/1.jpg": "/static/media/1.4792c570a0a3ffbb5f19.jpg",
-    "static/media/10.jpg": "/static/media/10.d31c623110d093e30590.jpg",
-    "static/media/7.jpg": "/static/media/7.438b605acd7de7aa43d7.jpg",
-    "static/media/6.jpg": "/static/media/6.cf89562685cc686a1b8e.jpg",
+    "main.js": "/static/js/main.8b3879a7.js",
     "static/media/Manali-DT.png": "/static/media/Manali-DT.047491ec36d597a72424.png",
-    "static/media/8.jpg": "/static/media/8.e19953e1341a2906e878.jpg",
-    "static/media/9.jpg": "/static/media/9.d297128a24ace742fec5.jpg",
     "static/media/DSC08639-1.png": "/static/media/DSC08639-1.ee87fb2f3fc302d44439.png",
-    "static/media/5.jpg": "/static/media/5.e5dd314a6fbf5b5f109d.jpg",
     "static/media/dental-consult-4.png": "/static/media/dental-consult-4.ba84a856b4d9e4fed893.png",
     "static/media/20220625-Splint.jpg": "/static/media/20220625-Splint.841fba6864861f0c50f8.jpg",
     "static/media/20220625-Denture.jpg": "/static/media/20220625-Denture.5a96b057e3c2a7670a6b.jpg",
@@ -28,10 +19,10 @@
     "static/media/uploadicon.png": "/static/media/uploadicon.d9905c3805dd8395dad2.png",
     "index.html": "/index.html",
     "main.1da739e0.css.map": "/static/css/main.1da739e0.css.map",
-    "main.c7b1f0f1.js.map": "/static/js/main.c7b1f0f1.js.map"
+    "main.8b3879a7.js.map": "/static/js/main.8b3879a7.js.map"
   },
   "entrypoints": [
     "static/css/main.1da739e0.css",
-    "static/js/main.c7b1f0f1.js"
+    "static/js/main.8b3879a7.js"
   ]
 }
