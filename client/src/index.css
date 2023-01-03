@@ -4988,6 +4988,7 @@ span {
   .blogimageinput {
     font-size: 1.4rem !important;
     width: 110% !important;
+    z-index: 1;
   }
 
   .bloguploadbtn {
@@ -4995,11 +4996,15 @@ span {
     border: none !important;
     box-shadow: none !important;
     margin-top: 8rem !important;
+    width: 350px !important;
+    height: 400px !important;
+    margin-left: 4.5rem;
+    margin-top: 6rem !important;
   }
 
   .uploadimage {
-    margin-top: -2.5rem;
-    margin-left: 3.5rem;
+    margin-top: -1rem;
+    margin-left: 0rem;
     width: 350px !important;
     height: 400px !important;
     z-index: 0;
@@ -5727,11 +5732,14 @@ span {
     border: none !important;
     box-shadow: none !important;
     margin-top: 5rem !important;
+    width: 250px !important;
+    height: 350px !important;
+    margin-left: 2.5rem;
   }
 
   .uploadimage {
     margin-top: 0rem;
-    margin-left: 2.5rem;
+    margin-left: 0rem;
     width: 250px !important;
     height: 350px !important;
     z-index: 0;
