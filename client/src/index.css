@@ -801,17 +801,21 @@ span {
   text-align: left !important;
   margin-left: 4rem !important;
 }
-
-.blogdetailimage {
-  max-width: 600px !important;
-  height: 500px !important;
-  object-fit: fill !important;
-  max-width: fit-content !important;
-  margin-top: 2.5rem !important;
-  margin-left: 22rem !important;
-  margin-bottom: 2.5rem !important;
+.blogdetailimagecontainer {
+  display: block;
+  margin-top: 2rem;
+  text-align: center !important;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
-
+.blogdetailimage {
+  width: 600px !important;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .blogdetaildescription {
   font-family: "Source Serif Pro" !important;
   font-size: 1.4rem !important;
@@ -2006,13 +2010,26 @@ span {
     font-size: 1.1rem !important;
   }
 
-  .blogdetailimage {
+  /* .blogdetailimage {
     max-width: 720px !important;
     height: 500px !important;
-    margin-left: 15rem !important;
-    margin-bottom: 2.5rem !important;
+    text-align: center !important;
+    object-fit: fill !important;
+    max-width: fit-content !important;
+    margin: auto !important;
+  } */
+  .blogdetailimagecontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
-
+  .blogdetailimage {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 600px;
+  }
   .blogdetaildescription {
     font-size: 1.2rem !important;
     margin-left: 2rem !important;
@@ -3020,11 +3037,18 @@ span {
     font-size: 1.1rem !important;
   }
 
-  .blogdetailimage {
+  /* .blogdetailimage {
     max-width: 620px !important;
     height: 400px !important;
-    margin-left: 6rem !important;
-    margin-bottom: 2.5rem !important;
+  } */
+  .blogdetailimagecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center !important;
+  }
+  .blogdetailimage {
+    max-width: 600px;
   }
 
   .blogdetaildescription {
@@ -4998,7 +5022,7 @@ span {
     margin-top: 8rem !important;
     width: 350px !important;
     height: 400px !important;
-    margin-left: 4.5rem;
+    margin-left: 4rem;
     margin-top: 6rem !important;
   }
 
@@ -5725,6 +5749,7 @@ span {
   .blogimageinput {
     font-size: 1.4rem !important;
     width: 110% !important;
+    z-index: 1;
   }
 
   .bloguploadbtn {
@@ -5734,7 +5759,7 @@ span {
     margin-top: 5rem !important;
     width: 250px !important;
     height: 350px !important;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
   }
 
   .uploadimage {

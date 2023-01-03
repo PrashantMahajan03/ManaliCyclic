@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4693b635.css",
-    "main.js": "/static/js/main.b2340843.js",
+    "main.css": "/static/css/main.0edfac6c.css",
+    "main.js": "/static/js/main.91d9e4e6.js",
     "static/media/Manali-DT.png": "/static/media/Manali-DT.047491ec36d597a72424.png",
     "static/media/DSC08639-1.png": "/static/media/DSC08639-1.ee87fb2f3fc302d44439.png",
     "static/media/dental-consult-4.png": "/static/media/dental-consult-4.ba84a856b4d9e4fed893.png",
@@ -16,11 +16,11 @@
     "static/media/6409057_calendar_date_event_schedule_icon.png": "/static/media/6409057_calendar_date_event_schedule_icon.2f95be2bbda2236390fd.png",
     "static/media/4082902_appointment_booking_calendar_event_plan_icon.png": "/static/media/4082902_appointment_booking_calendar_event_plan_icon.71f6aeb275b0946f95ce.png",
     "index.html": "/index.html",
-    "main.4693b635.css.map": "/static/css/main.4693b635.css.map",
-    "main.b2340843.js.map": "/static/js/main.b2340843.js.map"
+    "main.0edfac6c.css.map": "/static/css/main.0edfac6c.css.map",
+    "main.91d9e4e6.js.map": "/static/js/main.91d9e4e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4693b635.css",
-    "static/js/main.b2340843.js"
+    "static/css/main.0edfac6c.css",
+    "static/js/main.91d9e4e6.js"
   ]
 }

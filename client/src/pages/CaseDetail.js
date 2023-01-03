@@ -103,13 +103,16 @@ function CaseDetail() {
           /> */}
             <h2 className="blogdetailtitle">{blog.title}</h2>
             <h6 className="blogpublishdate">Published On: {blog.date}</h6>
-            <img
-              className="blogdetailimage"
-              alt={blog.title}
-              src={blog.image}
-            />
-
-            <h3 className="blogdetaildescription">{blog.description}</h3>
+            <div className="blogdetailimagecontainer">
+              <img
+                className="blogdetailimage"
+                alt={blog.title}
+                src={blog.image}
+              />
+            </div>
+            <div className="blogdetaildescriptioncontainer">
+              <h3 className="blogdetaildescription">{blog.description}</h3>
+            </div>
           </div>
         ))}
 
