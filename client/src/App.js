@@ -26,6 +26,7 @@ import ContactMe from "./pages/ContactMe";
 function App() {
   const { loading } = useSelector((state) => state.alerts);
   const { user } = useSelector((state) => state.user);
+
   return (
     <section>
       {loading && (
@@ -44,90 +45,80 @@ function App() {
           path="/login"
           element={
             <PublicRoute>
-              {" "}
-              <Login />{" "}
+              <Login />
             </PublicRoute>
           }
         />
         <Route path="/" element={<Home />} />
         <Route path="/explorecases" element={<ExploreCases />} />
         <Route path="/cases/:id" element={<CaseDetail />} />
-        <Route path="/profile" element={<ProfilePicture />} />
+        <Route
+          path="/profile"
+          element={
+            <ProtectedRoute>
+              <ProfilePicture />
+            </ProtectedRoute>
+          }
+        />
         <Route path="/contact" element={<ContactMe />} />
 
         <Route
           path="/dashboard"
           element={
             <ProtectedRoute>
-              {" "}
-              <Dashboard />{" "}
+              <Dashboard />
             </ProtectedRoute>
           }
         />
-        {user?.role === "user" && (
-          <Route
-            path="/consultations"
-            element={
-              <ProtectedRoute>
-                {" "}
-                <Consultation />{" "}
-              </ProtectedRoute>
-            }
-          />
-        )}
-        {user?.role === "user" && (
-          <Route
-            path="/appointments"
-            element={
-              <ProtectedRoute>
-                {" "}
-                <AppointmentsList />{" "}
-              </ProtectedRoute>
-            }
-          />
-        )}
+        <Route
+          path="/consultations"
+          element={
+            <ProtectedRoute>
+              <Consultation />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/appointments"
+          element={
+            <ProtectedRoute>
+              <AppointmentsList />
+            </ProtectedRoute>
+          }
+        />
 
         <Route
           path="/notifications"
           element={
             <ProtectedRoute>
-              {" "}
-              <Notifications />{" "}
+              <Notifications />
             </ProtectedRoute>
           }
         />
-        {user?.role === "admin" && (
-          <Route
-            path="/admin/userslist"
-            element={
-              <ProtectedRoute>
-                {" "}
-                <UsersList />{" "}
-              </ProtectedRoute>
-            }
-          />
-        )}
-        {user?.role === "admin" && (
-          <Route
-            path="/admin/consultationslist"
-            element={
-              <ProtectedRoute>
-                <ConsultationsList />
-              </ProtectedRoute>
-            }
-          />
-        )}
-        {user?.role === "admin" && (
-          <Route
-            path="/admin/blogpost"
-            element={
-              <ProtectedRoute>
-                {" "}
-                <BlogPosts />{" "}
-              </ProtectedRoute>
-            }
-          />
-        )}
+        <Route
+          path="/admin/userslist"
+          element={
+            <ProtectedRoute>
+              <UsersList />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/admin/consultationslist"
+          element={
+            <ProtectedRoute>
+              <ConsultationsList />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/admin/blogpost"
+          element={
+            <ProtectedRoute>
+              <BlogPosts />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </section>
   );

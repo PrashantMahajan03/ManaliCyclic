@@ -94,7 +94,6 @@ const ProfilePicture = () => {
       dispatch(hideLoading());
       if (response.data.success) {
         setDisplayPicture(response.data.data);
-        // console.log(response.data.data);
       }
     } catch (error) {
       dispatch(hideLoading());
@@ -102,11 +101,12 @@ const ProfilePicture = () => {
   };
 
   useEffect(() => {
+    const saveddp = window.localStorage.setItem(
+      "displaypicture",
+      JSON.stringify(displayPicture)
+    );
     getProfilePicture();
     const pictureavailable = !!setDisplayPicture.length;
-
-    // console.log(pictureavailable);
-    // console.log(displayPicture);
   }, []);
 
   const updatePictureHandler = async (values) => {
@@ -139,10 +139,9 @@ const ProfilePicture = () => {
     }
   };
 
-  useEffect(() => {
-    const pictureavailable = !!setDisplayPicture.length;
-  }, [displayPicture]);
-  // const length = !pictureavailable.length;
+  // useEffect(() => {
+  //   const pictureavailable = !!setDisplayPicture.length;
+  // }, [displayPicture]);
 
   const nameFinishHandler = async (values) => {
     try {

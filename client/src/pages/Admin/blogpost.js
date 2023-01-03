@@ -6,8 +6,6 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Layout from "../../components/Layout";
 import { hideLoading, showLoading } from "../../redux/alertsSlice";
-import UploadImage from "../../Images/7869470_download_man_upload_transfer_document_icon.png";
-import UploadIconMobile from "../../Images/uploadicon.png";
 
 const BlogPosts = () => {
   const dispatch = useDispatch();
@@ -82,11 +80,19 @@ const BlogPosts = () => {
           </Col>
           <Col span={12}>
             <Button className="bloguploadbtn" htmlType="submit">
-              <img className="uploadimage" alt="upload" src={UploadImage} />
+              <img
+                className="uploadimage"
+                alt="upload"
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/image-upload-28244.appspot.com/o/uploadicon%2F7869470_download_man_upload_transfer_document_icon.png?alt=media&token=53678d11-f137-4e1d-ac3d-5483d6550fd0"
+                }
+              />
               <img
                 className="uploadiconmobile"
                 alt="uploadmobile"
-                src={UploadIconMobile}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/image-upload-28244.appspot.com/o/uploadicon%2Fuploadicon.png?alt=media&token=0c429d73-eabc-4e56-b4f2-c2480cdce90b"
+                }
                 style={{ display: "none" }}
               />
             </Button>

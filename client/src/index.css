@@ -69,7 +69,7 @@ span {
 
 .h3-sp {
   font-family: "Source Serif Pro";
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.6rem;
   margin-left: 8rem;
 }
@@ -191,12 +191,12 @@ span {
 
 .consult-text-h2 {
   font-family: "Source Serif Pro";
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.6rem;
   text-align: left;
   margin-left: 8rem;
   margin-bottom: 1rem;
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
 .booknowcard {
@@ -255,6 +255,7 @@ span {
   font-size: 1.2rem !important;
   border-style: none !important;
   padding: 0.5rem 1rem !important;
+  margin-top: 1rem !important;
 }
 
 .btn-patient:hover {
@@ -270,7 +271,7 @@ span {
 /* About Me */
 .aboutmerow {
   width: 100% !important;
-  margin-top: 3rem !important;
+  margin-top: 5rem !important;
 }
 
 .h3-aboutme {
@@ -364,7 +365,7 @@ span {
 }
 
 .registercard {
-  margin: 2rem 0rem 0rem 8rem !important;
+  margin: 8rem 0rem 0rem 9rem !important;
   width: 36rem !important;
   border: 0.1rem solid !important;
   border-radius: 1rem !important;
@@ -457,11 +458,12 @@ span {
 }
 .contactcontext {
   font-family: "Source Serif Pro" !important;
-  font-size: 2rem !important;
-  font-weight: 300;
-  text-align: left;
-  margin-top: 5rem !important;
+  font-size: 1.6rem !important;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 4rem !important;
   margin-left: 3rem !important;
+  margin-bottom: 6rem !important;
 }
 
 /*   */
@@ -739,7 +741,7 @@ span {
   border: solid !important;
   border-width: 0.1rem !important;
   margin-top: 3rem !important;
-  margin-left: 15rem !important;
+  margin-left: 16rem !important;
 }
 
 .highlightcard img {
@@ -759,7 +761,7 @@ span {
   border: solid !important;
   border-width: 0.1rem !important;
   margin-top: 3rem !important;
-  margin-left: 15rem !important;
+  margin-left: 16rem !important;
 }
 .explorecasecards img {
   width: 1000px !important;
@@ -824,7 +826,7 @@ span {
 /*Follow*/
 .follow {
   justify-content: end;
-  margin-top: 5rem;
+  margin-top: 2rem;
   background-color: black;
   font-family: "Source Serif Pro" !important;
   font-size: 3rem !important;
@@ -1265,6 +1267,15 @@ span {
   .explorecasecardcol {
     margin-left: 7rem !important;
   }
+  .highlightcard .ant-card-cover {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+  .highlightcard img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+
   .highlightcard {
     width: 1000px !important;
     height: 550px !important;
@@ -1274,29 +1285,36 @@ span {
     margin-left: 22rem !important;
   }
 
-  .highlightcard img {
-    width: 1000px !important;
-    height: 400px !important;
-  }
-
   .highlightcardbodystyle {
     object-fit: fill !important;
     height: 100px !important;
     width: 650px !important;
   }
+  .explorecasecards .ant-card-cover {
+    width: 1000px !important;
+    height: 150px !important;
+  }
+
+  .explorecasecards img {
+    width: 1000px !important;
+    height: 150px !important;
+    object-fit: contain !important;
+  }
+
   .explorecasecards {
     width: 1000px !important;
-    /* margin-top: 3rem !important;
-                  margin-left: 3rem !important; */
+    height: 250px !important;
     border: solid !important;
     border-width: 0.1rem !important;
     margin-top: 3rem !important;
     margin-left: 22rem !important;
   }
-  .explorecasecards img {
-    width: 1000px !important;
-    object-fit: contain !important;
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 100px !important;
+    width: 950px !important;
   }
+
   /* Blogs Detail */
   .blogsdetail {
     font-size: 10rem !important;
@@ -1586,6 +1604,16 @@ span {
   .explorecasecardcol {
     margin-left: 7rem !important;
   }
+  .highlightcard .ant-card-cover {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+
+  .highlightcard img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
+
   .highlightcard {
     width: 1000px !important;
     height: 550px !important;
@@ -1595,29 +1623,35 @@ span {
     margin-left: 3rem !important;
   }
 
-  .highlightcard img {
-    width: 1000px !important;
-    height: 400px !important;
-  }
-
   .highlightcardbodystyle {
     object-fit: fill !important;
-    height: 100px !important;
-    width: 650px !important;
+    height: 600px !important;
+    width: 950px !important;
   }
+  .explorecasecards .ant-card-cover {
+    width: 1000px !important;
+    height: 150px !important;
+  }
+  .explorecasecards img {
+    width: 1000px !important;
+    height: 150px !important;
+    object-fit: contain !important;
+  }
+
   .explorecasecards {
     width: 1000px !important;
-    /* margin-top: 3rem !important;
-                  margin-left: 3rem !important; */
+    height: 250px !important;
     border: solid !important;
     border-width: 0.1rem !important;
     margin-top: 3rem !important;
     margin-left: 3rem !important;
   }
-  .explorecasecards img {
-    width: 1000px !important;
-    object-fit: contain !important;
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 100px !important;
+    width: 950px !important;
   }
+
   /* Blogs Detail */
   .blogsdetail {
     font-size: 10rem !important;
@@ -1707,7 +1741,7 @@ span {
 
   .contenttext {
     width: 1370px;
-    margin-top: 10rem !important;
+    margin-top: 8rem !important;
   }
   .h1text {
     font-size: 4rem;
@@ -1743,7 +1777,7 @@ span {
     height: 3rem !important;
     width: 6rem !important;
     margin-left: 17.5rem !important;
-    margin-top: -4.8rem !important;
+    margin-top: -5.5rem !important;
   }
 
   .signupnewsletter {
@@ -1792,16 +1826,16 @@ span {
     display: none !important;
   }
   .carousel-control-next-icon {
-    margin-top: -4rem !important;
+    margin-top: -1rem !important;
     margin-left: 5rem !important;
   }
   .carousel-control-prev-icon {
-    margin-top: -4rem !important;
+    margin-top: -1rem !important;
     margin-left: -5rem !important;
   }
 
   .consult-text-h2 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     font-size: 1.8rem !important;
     margin-left: 4rem;
   }
@@ -1811,7 +1845,7 @@ span {
     margin: 4rem 0rem 2rem 8rem;
   }
   .booknowcard {
-    margin-top: 3.7rem !important;
+    margin-top: 3.5rem !important;
     margin-left: 3rem !important;
     width: 350px !important;
     height: 180px !important;
@@ -1848,6 +1882,7 @@ span {
   }
   .aboutmerow {
     width: 1000px;
+    margin-bottom: 8rem !important;
   }
   .h3-aboutme {
     font-size: 1.8rem;
@@ -1863,6 +1898,7 @@ span {
     width: 380px !important;
     height: 490px !important;
     margin-left: -5rem;
+    margin-top: -0.5rem !important;
   }
   .follow {
     justify-content: center;
@@ -1903,7 +1939,16 @@ span {
     font-weight: 200;
   }
   .explorecasecardcol {
-    margin-left: 0.5rem !important;
+    margin-left: 3rem !important;
+  }
+  .highlightcard .ant-card-cover {
+    width: 900px !important;
+    height: 400px !important;
+  }
+
+  .highlightcard img {
+    width: 1000px !important;
+    height: 400px !important;
   }
   .highlightcard {
     width: 1000px !important;
@@ -1914,29 +1959,35 @@ span {
     margin-left: 3rem !important;
   }
 
-  .highlightcard img {
-    width: 1000px !important;
-    height: 400px !important;
-  }
-
   .highlightcardbodystyle {
     object-fit: fill !important;
-    height: 100px !important;
-    width: 650px !important;
+    height: 500px !important;
+    width: 950px !important;
   }
-  .explorecasecards {
-    width: 1000px !important;
-    /* margin-top: 3rem !important;
-                margin-left: 3rem !important; */
-    border: solid !important;
-    border-width: 0.1rem !important;
-    margin-top: 3rem !important;
-    margin-left: 3rem !important;
+  .explorecasecards .ant-card-cover {
+    width: 900px !important;
+    height: 150px !important;
   }
   .explorecasecards img {
     width: 1000px !important;
-    object-fit: contain !important;
+    height: 150px !important;
+    object-fit: scale-down !important;
   }
+
+  .explorecasecards {
+    width: 1000px !important;
+    height: 250px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 1rem !important;
+    margin-left: 3rem !important;
+  }
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 120px !important;
+    width: 950px !important;
+  }
+
   /* Blogs Detail */
   .blogsdetail {
     font-size: 9rem !important;
@@ -1971,12 +2022,12 @@ span {
 
   .registerrow {
     margin-left: 1rem !important;
-    margin-bottom: 6rem !important;
+    margin-bottom: 10rem !important;
     width: 600px !important;
   }
 
   .registercard {
-    margin: 2rem 0rem 0rem 20rem !important;
+    margin: 2rem 0rem 0rem 22rem !important;
     width: 450px !important;
   }
 
@@ -2222,40 +2273,55 @@ span {
     font-weight: 200;
   }
   .explorecasecardcol {
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
+  }
+  .highlightcard .ant-card-cover {
+    width: 900px !important;
+    height: 400px !important;
+  }
+
+  .highlightcard img {
+    width: 900px !important;
+    height: 360px !important;
   }
   .highlightcard {
-    width: 950px !important;
-    height: 500px !important;
+    width: 900px !important;
+    height: 550px !important;
     border: solid !important;
     border-width: 0.1rem !important;
     margin-top: 3rem !important;
     margin-left: 3rem !important;
-  }
-
-  .highlightcard img {
-    width: 950px !important;
-    height: 360px !important;
   }
 
   .highlightcardbodystyle {
     object-fit: fill !important;
     height: 100px !important;
-    width: 650px !important;
+    width: 850px !important;
   }
-  .explorecasecards {
-    width: 950px !important;
-    /* margin-top: 3rem !important;
-              margin-left: 3rem !important; */
-    border: solid !important;
-    border-width: 0.1rem !important;
-    margin-top: 3rem !important;
-    margin-left: 3rem !important;
+  .explorecasecards .ant-card-cover {
+    width: 900px !important;
+    height: 150px !important;
   }
   .explorecasecards img {
-    width: 950px !important;
-    object-fit: contain !important;
+    width: 900px !important;
+    height: 150px !important;
+    object-fit: scale-down !important;
   }
+
+  .explorecasecards {
+    width: 900px !important;
+    height: 250px !important;
+    border: solid !important;
+    border-width: 0.1rem !important;
+    margin-top: 1rem !important;
+    margin-left: 3rem !important;
+  }
+  .cardbodystyle {
+    object-fit: cover !important;
+    height: 120px !important;
+    width: 850px !important;
+  }
+
   /* Blogs Detail */
   .blogsdetail {
     font-size: 5rem !important;
@@ -2561,6 +2627,11 @@ span {
     object-fit: fill !important;
     height: 400px !important;
   }
+  .explorecasecards img {
+    width: 720px !important;
+    height: 100px !important;
+  }
+
   .explorecasecards {
     width: 720px !important;
     height: 200px !important;
@@ -2658,7 +2729,7 @@ span {
   }
   .contenttext {
     width: 800px;
-    margin-top: 10rem !important;
+    margin-top: 9rem !important;
   }
   .h1text {
     font-size: 3rem;
@@ -2670,7 +2741,7 @@ span {
     display: block;
     width: 280px !important;
     height: 320px !important;
-    margin-top: -20rem !important;
+    margin-top: -22rem !important;
     margin-left: 31rem !important;
   }
   .btn-contact {
@@ -2691,23 +2762,25 @@ span {
   .btn-signup {
     padding: 0rem 0rem !important;
     font-size: 1rem !important;
-    height: 2.3rem !important;
+    height: 2.6rem !important;
     width: 6rem !important;
     margin-left: 13.5rem !important;
+    margin-top: -5.3rem !important;
   }
 
   .signupnewsletter {
-    margin-top: 1rem !important;
+    margin-top: 0.9rem !important;
     font-family: "Source Serif Pro" !important;
     font-size: 1rem !important;
     width: 210px !important;
+    height: 2.6rem !important;
   }
   .signupnewsletter input {
     margin-left: -4rem !important;
     width: 260px !important;
   }
   .speciality {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   .h3-sp {
     font-size: 1.2rem !important;
@@ -2727,7 +2800,7 @@ span {
     width: 750px !important;
     height: 350px !important;
     margin-top: 1rem !important;
-    margin-bottom: -3rem !important;
+    margin-bottom: -5rem !important;
   }
 
   .normalportcards {
@@ -2741,12 +2814,12 @@ span {
     display: none !important;
   }
   .carousel-control-next-icon {
-    margin-top: -4rem !important;
-    margin-left: 5rem !important;
+    margin-top: -1rem !important;
+    margin-left: 4.5rem !important;
   }
   .carousel-control-prev-icon {
-    margin-top: -4rem !important;
-    margin-left: -5rem !important;
+    margin-top: -1rem !important;
+    margin-left: -4.5rem !important;
   }
 
   .consult-text-h2 {
@@ -2763,6 +2836,7 @@ span {
     margin-left: -0.8rem !important;
     width: 350px !important;
     height: 180px !important;
+    margin-top: 2rem !important;
   }
   .doctext {
     font-size: 1.2rem !important;
@@ -2796,6 +2870,7 @@ span {
   }
   .aboutmerow {
     width: 850px;
+    margin-top: 3rem !important;
   }
   .h3-aboutme {
     font-size: 1.2rem;
@@ -2817,7 +2892,7 @@ span {
     margin-top: 3rem;
     font-size: 3rem !important;
     color: #4e3ee5;
-    height: 300px;
+    height: 250px;
     text-align: center;
   }
   .followtext {
@@ -2851,7 +2926,7 @@ span {
     font-weight: 200;
   }
   .explorecasecardcol {
-    margin-left: -1.5rem !important;
+    margin-left: 1rem !important;
   }
   .highlightcard .ant-card-cover {
     width: 390px !important;
@@ -2962,6 +3037,7 @@ span {
   .registerrow {
     margin-left: 1rem !important;
     margin-bottom: 6rem !important;
+    margin-top: 3rem !important;
     width: 600px !important;
   }
 
@@ -3001,6 +3077,23 @@ span {
   .registerlink {
     font-size: 1.2rem !important;
     margin-left: 1rem !important;
+  }
+
+  /* Contact Me */
+  .contactme {
+    font-size: 5rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem !important;
+  }
+  .contactcontext {
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4rem !important;
+    margin-left: 0rem !important;
+    margin-bottom: 6rem !important;
   }
 }
 
@@ -3236,6 +3329,7 @@ span {
   .highlightcardbodystyle {
     object-fit: fill !important;
     height: 400px !important;
+    width: 550px !important;
   }
   .explorecasecards {
     width: 600px !important;
@@ -3537,6 +3631,7 @@ span {
   .highlightcardbodystyle {
     object-fit: fill !important;
     height: 380px !important;
+    width: 300px !important;
   }
   .explorecasecards {
     width: 360px !important;
@@ -3824,25 +3919,30 @@ span {
     width: 300px !important;
     height: 260px !important;
   }
+  .highlightcardbodystyle {
+    object-fit: fill !important;
+    height: 220px !important;
+    width: 250px !important;
+  }
 
   .cardbodystyle {
     object-fit: cover !important;
-    height: 100px !important;
+    height: 120px !important;
   }
 
   .highlightcard {
     width: 300px !important;
-    height: 502px !important;
+    height: 500px !important;
     border: solid !important;
     border-width: 0.1rem !important;
     margin-top: 3rem !important;
     margin-left: 3rem !important;
   }
-
-  .highlightcardbodystyle {
-    object-fit: fill !important;
-    height: 400px !important;
+  .explorecasecards img {
+    width: 300px !important;
+    height: 90px !important;
   }
+
   .explorecasecards {
     width: 300px !important;
     height: 250px !important;
@@ -3877,7 +3977,7 @@ span {
   .blogdetailimage {
     max-width: 200px !important;
     height: 200px !important;
-    margin-left: 4rem !important;
+    margin-left: 5.5rem !important;
     margin-bottom: 2.5rem !important;
   }
 
@@ -4874,6 +4974,7 @@ span {
     font-size: 1.4rem !important;
     width: 170% !important;
     margin: 40px 0px 10px 20px !important;
+    z-index: 1;
   }
 
   .blogdescriptioninput {
@@ -4881,6 +4982,7 @@ span {
     width: 100% !important;
     height: 280px !important;
     margin-top: 1.5rem !important;
+    z-index: 1;
   }
 
   .blogimageinput {
@@ -4892,12 +4994,15 @@ span {
     border-width: 0rem !important;
     border: none !important;
     box-shadow: none !important;
+    margin-top: 8rem !important;
   }
 
   .uploadimage {
-    margin-top: 6rem;
-    margin-left: 2rem;
+    margin-top: -2.5rem;
+    margin-left: 3.5rem;
     width: 350px !important;
+    height: 400px !important;
+    z-index: 0;
   }
   .uploadiconmobile {
     display: none !important;
@@ -5602,12 +5707,14 @@ span {
     font-size: 1.4rem !important;
     width: 150% !important;
     margin: 40px 0px 10px 20px !important;
+    z-index: 1;
   }
 
   .blogdescriptioninput {
     font-size: 1.4rem !important;
     width: 100% !important;
     height: 250px !important;
+    z-index: 1;
   }
 
   .blogimageinput {
@@ -5619,12 +5726,15 @@ span {
     border-width: 0rem !important;
     border: none !important;
     box-shadow: none !important;
+    margin-top: 5rem !important;
   }
 
   .uploadimage {
-    margin-top: 8rem;
-    margin-left: 2rem;
-    width: 220px !important;
+    margin-top: 0rem;
+    margin-left: 2.5rem;
+    width: 250px !important;
+    height: 350px !important;
+    z-index: 0;
   }
   .uploadiconmobile {
     display: none !important;

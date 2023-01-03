@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1da739e0.css",
-    "main.js": "/static/js/main.8b3879a7.js",
+    "main.css": "/static/css/main.a9aacaa1.css",
+    "main.js": "/static/js/main.b2340843.js",
     "static/media/Manali-DT.png": "/static/media/Manali-DT.047491ec36d597a72424.png",
     "static/media/DSC08639-1.png": "/static/media/DSC08639-1.ee87fb2f3fc302d44439.png",
     "static/media/dental-consult-4.png": "/static/media/dental-consult-4.ba84a856b4d9e4fed893.png",
@@ -13,16 +13,14 @@
     "static/media/20220625-ISD.jpg": "/static/media/20220625-ISD.81502e3cf15636b9a3e4.jpg",
     "static/media/20220625-Bridge.jpg": "/static/media/20220625-Bridge.5cf28df3709243980993.jpg",
     "static/media/20220625-Implant.jpg": "/static/media/20220625-Implant.be91b5fdcb6c1b16f93a.jpg",
-    "static/media/7869470_download_man_upload_transfer_document_icon.png": "/static/media/7869470_download_man_upload_transfer_document_icon.028d9e19d584cb3590b8.png",
     "static/media/6409057_calendar_date_event_schedule_icon.png": "/static/media/6409057_calendar_date_event_schedule_icon.2f95be2bbda2236390fd.png",
     "static/media/4082902_appointment_booking_calendar_event_plan_icon.png": "/static/media/4082902_appointment_booking_calendar_event_plan_icon.71f6aeb275b0946f95ce.png",
-    "static/media/uploadicon.png": "/static/media/uploadicon.d9905c3805dd8395dad2.png",
     "index.html": "/index.html",
-    "main.1da739e0.css.map": "/static/css/main.1da739e0.css.map",
-    "main.8b3879a7.js.map": "/static/js/main.8b3879a7.js.map"
+    "main.a9aacaa1.css.map": "/static/css/main.a9aacaa1.css.map",
+    "main.b2340843.js.map": "/static/js/main.b2340843.js.map"
   },
   "entrypoints": [
-    "static/css/main.1da739e0.css",
-    "static/js/main.8b3879a7.js"
+    "static/css/main.a9aacaa1.css",
+    "static/js/main.b2340843.js"
   ]
 }

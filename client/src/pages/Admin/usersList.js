@@ -1,11 +1,13 @@
 import { Table } from "antd";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Layout from "../../components/Layout";
 import { hideLoading, showLoading } from "../../redux/alertsSlice";
 
 const UsersList = () => {
+  const { user } = useSelector((state) => state.user);
+
   const [users, setUsers] = useState([]);
   const dispatch = useDispatch();
   const getUserData = async () => {
