@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0edfac6c.css",
-    "main.js": "/static/js/main.91d9e4e6.js",
+    "main.css": "/static/css/main.ffdb8c5e.css",
+    "main.js": "/static/js/main.e28279c6.js",
     "static/media/Manali-DT.png": "/static/media/Manali-DT.047491ec36d597a72424.png",
     "static/media/DSC08639-1.png": "/static/media/DSC08639-1.ee87fb2f3fc302d44439.png",
+    "static/media/Clinic_Isometric.jpg": "/static/media/Clinic_Isometric.3b28f342ef99c91cf0d2.jpg",
     "static/media/dental-consult-4.png": "/static/media/dental-consult-4.ba84a856b4d9e4fed893.png",
     "static/media/20220625-Splint.jpg": "/static/media/20220625-Splint.841fba6864861f0c50f8.jpg",
     "static/media/20220625-Denture.jpg": "/static/media/20220625-Denture.5a96b057e3c2a7670a6b.jpg",
@@ -15,12 +16,13 @@
     "static/media/20220625-Implant.jpg": "/static/media/20220625-Implant.be91b5fdcb6c1b16f93a.jpg",
     "static/media/6409057_calendar_date_event_schedule_icon.png": "/static/media/6409057_calendar_date_event_schedule_icon.2f95be2bbda2236390fd.png",
     "static/media/4082902_appointment_booking_calendar_event_plan_icon.png": "/static/media/4082902_appointment_booking_calendar_event_plan_icon.71f6aeb275b0946f95ce.png",
+    "static/media/ManaliBW.png": "/static/media/ManaliBW.15a5dddbd45292d1dc43.png",
     "index.html": "/index.html",
-    "main.0edfac6c.css.map": "/static/css/main.0edfac6c.css.map",
-    "main.91d9e4e6.js.map": "/static/js/main.91d9e4e6.js.map"
+    "main.ffdb8c5e.css.map": "/static/css/main.ffdb8c5e.css.map",
+    "main.e28279c6.js.map": "/static/js/main.e28279c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0edfac6c.css",
-    "static/js/main.91d9e4e6.js"
+    "static/css/main.ffdb8c5e.css",
+    "static/js/main.e28279c6.js"
   ]
 }

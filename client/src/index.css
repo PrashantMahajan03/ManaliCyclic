@@ -42,7 +42,7 @@ span {
   font-family: "Source Serif Pro";
   font-weight: 400;
   text-align: left;
-  margin: 8rem 2rem 0rem 8rem;
+  margin: 6rem 2rem 0rem 8rem;
   width: 38%;
 }
 
@@ -83,6 +83,14 @@ span {
   width: 580px;
   height: 650px;
   margin-left: 100px;
+}
+
+.clinic {
+  /* position: relative !important; */
+  width: 760px;
+  height: 550px;
+  margin-left: -1rem;
+  margin-top: 3rem;
 }
 
 .btn-contact {
@@ -1337,11 +1345,17 @@ span {
     font-size: 1.1rem !important;
   }
 
+  .blogdetailimagecontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .blogdetailimage {
-    max-width: 890px !important;
-    height: 650px !important;
-    margin-left: 34rem !important;
-    margin-bottom: 2.5rem !important;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 800px;
   }
 
   .blogdetaildescription {
@@ -1350,6 +1364,24 @@ span {
     margin-right: 2rem !important;
     line-height: 2rem !important;
   }
+  /* Contact Me */
+  .contactme {
+    font-size: 5rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem !important;
+  }
+  .contactcontext {
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    margin-bottom: 6rem !important;
+  }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -1422,7 +1454,7 @@ span {
     width: 510px !important;
     height: 580px !important;
     margin-top: -32rem !important;
-    margin-left: 48rem !important;
+    margin-left: 47rem !important;
   }
   .btn-contact {
     margin-left: 0rem !important;
@@ -1445,7 +1477,7 @@ span {
     height: 3rem !important;
     width: 6rem !important;
     margin-left: 19.5rem !important;
-    margin-top: -4.8rem !important;
+    margin-top: -5.4rem !important;
   }
 
   .signupnewsletter {
@@ -1457,6 +1489,8 @@ span {
   }
   .signupnewsletter input {
     margin-left: 0rem !important;
+    height: 3rem !important;
+
     width: 300px !important;
   }
   .speciality {
@@ -1674,11 +1708,17 @@ span {
     font-size: 1.1rem !important;
   }
 
+  .blogdetailimagecontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .blogdetailimage {
-    max-width: 890px !important;
-    height: 650px !important;
-    margin-left: 18rem !important;
-    margin-bottom: 2.5rem !important;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 600px;
   }
 
   .blogdetaildescription {
@@ -1686,6 +1726,24 @@ span {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
+  /* Contact Me */
+  .contactme {
+    font-size: 5rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem !important;
+  }
+  .contactcontext {
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    margin-bottom: 6rem !important;
+  }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -2035,6 +2093,7 @@ span {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -2130,7 +2189,7 @@ span {
     height: 3rem !important;
     width: 6rem !important;
     margin-left: 15.5rem !important;
-    margin-top: -4.8rem !important;
+    margin-top: -5.5rem !important;
   }
 
   .signupnewsletter {
@@ -2143,6 +2202,7 @@ span {
   .signupnewsletter input {
     margin-left: -4rem !important;
     width: 300px !important;
+    height: 3rem !important;
   }
   .speciality {
     margin-top: 7rem;
@@ -2357,11 +2417,14 @@ span {
     font-size: 1.1rem !important;
   }
 
+  .blogdetailimagecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center !important;
+  }
   .blogdetailimage {
-    max-width: 720px !important;
-    height: 500px !important;
-    margin-left: 11rem !important;
-    margin-bottom: 2.5rem !important;
+    max-width: 600px;
   }
 
   .blogdetaildescription {
@@ -2369,6 +2432,24 @@ span {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
+  /* Contact Me */
+  .contactme {
+    font-size: 5rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem !important;
+  }
+  .contactcontext {
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    margin-bottom: 6rem !important;
+  }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -2422,7 +2503,7 @@ span {
   }
   .contenttext {
     width: 800px;
-    margin-top: 10rem !important;
+    margin-top: 8rem !important;
   }
   .h1text {
     font-size: 3rem;
@@ -2458,6 +2539,7 @@ span {
     height: 2.3rem !important;
     width: 6rem !important;
     margin-left: 15.5rem !important;
+    margin-top: -6.2rem !important;
   }
 
   .signupnewsletter {
@@ -2469,12 +2551,14 @@ span {
   .signupnewsletter input {
     margin-left: -2rem !important;
     width: 260px !important;
+    height: 2.3rem !important;
   }
   .speciality {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   .h3-sp {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 400;
     margin-left: 4rem;
   }
   .specialitycard {
@@ -2506,17 +2590,18 @@ span {
   }
   .carousel-control-next-icon {
     margin-top: -4rem !important;
-    margin-left: 5rem !important;
+    margin-left: 3rem !important;
   }
   .carousel-control-prev-icon {
     margin-top: -4rem !important;
-    margin-left: -5rem !important;
+    margin-left: -3rem !important;
   }
 
   .consult-text-h2 {
     margin-top: 3rem;
     margin-left: 4rem;
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 400;
   }
   .consultationimages {
     width: 300px;
@@ -2559,22 +2644,22 @@ span {
     margin-top: -5rem !important;
   }
   .aboutmerow {
-    width: 850px;
+    width: 1000px;
   }
   .h3-aboutme {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.4rem !important;
+    font-weight: 400;
     margin-top: 2rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
     line-height: 2rem;
     text-align: justify;
-    width: 380px !important;
+    width: 450px !important;
   }
   .manali-about-me {
-    width: 220px !important;
+    width: 250px !important;
     height: 300px;
-    margin-left: -2rem;
+    margin-left: -4rem;
   }
   .follow {
     justify-content: center;
@@ -2681,11 +2766,14 @@ span {
     font-size: 1.1rem !important;
   }
 
+  .blogdetailimagecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center !important;
+  }
   .blogdetailimage {
-    max-width: 620px !important;
-    height: 400px !important;
-    margin-left: 8rem !important;
-    margin-bottom: 2.5rem !important;
+    max-width: 600px;
   }
 
   .blogdetaildescription {
@@ -2693,6 +2781,24 @@ span {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
+  /* Contact Me */
+  .contactme {
+    font-size: 5rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem !important;
+  }
+  .contactcontext {
+    font-family: "Source Serif Pro" !important;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    margin-bottom: 6rem !important;
+  }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -2800,7 +2906,8 @@ span {
     margin-top: 5rem;
   }
   .h3-sp {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
     margin-left: 4rem;
   }
   .specialitycard {
@@ -2842,7 +2949,8 @@ span {
   .consult-text-h2 {
     margin-top: 3rem;
     margin-left: 4rem;
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
   }
   .consultationimages {
     width: 300px;
@@ -2890,8 +2998,8 @@ span {
     margin-top: 3rem !important;
   }
   .h3-aboutme {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.4rem;
+    font-weight: 400;
     margin-top: 2rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
@@ -2900,9 +3008,9 @@ span {
     width: 380px !important;
   }
   .manali-about-me {
-    width: 220px !important;
-    height: 300px;
-    margin-left: -2rem;
+    width: 280px !important;
+    height: 320px;
+    margin-left: -3rem;
   }
   .follow {
     justify-content: center;
@@ -3116,7 +3224,8 @@ span {
     font-weight: 400;
     text-align: center;
     margin-top: 4rem !important;
-    margin-left: 0rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
     margin-bottom: 6rem !important;
   }
 }
@@ -3163,7 +3272,7 @@ span {
     height: 2rem !important;
     width: 4rem !important;
     margin-left: 9rem !important;
-    margin-top: -3.8rem !important;
+    margin-top: -6.4rem !important;
   }
 
   .signupnewsletter {
@@ -3175,9 +3284,10 @@ span {
   .signupnewsletter input {
     margin-left: -4rem !important;
     width: 205px !important;
+    height: 2rem !important;
   }
   .speciality {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   .h3-sp {
     font-size: 1.2rem !important;
@@ -3191,6 +3301,14 @@ span {
   .specialityimage {
     width: 100px;
     height: 100px;
+  }
+  .normalportcards .carousel-control-next-icon {
+    margin-top: -2rem !important;
+    margin-left: 2rem !important;
+  }
+  .normalportcards .carousel-control-prev-icon {
+    margin-top: -2rem !important;
+    margin-left: -2rem !important;
   }
 
   .cardgroup {
@@ -3211,21 +3329,14 @@ span {
   .carousel-indicators {
     display: none !important;
   }
-  .carousel-control-next-icon {
-    margin-top: -6rem !important;
-    margin-left: 2rem !important;
-  }
-  .carousel-control-prev-icon {
-    margin-top: -6rem !important;
-    margin-left: -2rem !important;
-  }
 
   .consult-text-h2 {
-    margin-top: 3rem;
+    margin-top: 0rem;
     margin-left: 4rem;
     margin-bottom: -2rem !important;
     font-size: 1.2rem !important;
   }
+
   .consultationimages {
     width: 200px;
     height: 200px;
@@ -3268,6 +3379,7 @@ span {
   }
   .aboutmerow {
     width: 700px;
+    margin-top: 3rem !important;
   }
   .h3-aboutme {
     font-size: 1.2rem;
@@ -3365,6 +3477,10 @@ span {
     margin-top: 6rem !important;
     margin-left: 3rem !important;
   }
+  .explorecasecards img {
+    width: 600px !important;
+  }
+
   .explorecasecards .ant-card-cover {
     width: 600px !important;
     height: 100px !important;
@@ -3387,17 +3503,36 @@ span {
     font-size: 1.1rem !important;
   }
 
+  .blogdetailimagecontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .blogdetailimage {
-    max-width: 520px !important;
-    height: 400px !important;
-    margin-left: 4rem !important;
-    margin-bottom: 2.5rem !important;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 500px;
   }
 
   .blogdetaildescription {
     font-size: 1.2rem !important;
     margin-left: 2rem !important;
     margin-right: 2rem !important;
+  }
+
+  /* Contact Me */
+  .contactme {
+    font-size: 4rem !important;
+  }
+  .contactcontext {
+    font-size: 1.6rem !important;
+    text-align: center;
+    margin-top: 2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    margin-bottom: 3rem !important;
   }
   /* Register Now  Login Now*/
 
@@ -3457,7 +3592,7 @@ span {
   .h1text {
     font-size: 2.4rem;
     width: 280px;
-    margin-top: -6rem;
+    margin-top: -3rem;
     margin-left: -5rem;
   }
   .image1 {
@@ -3479,24 +3614,24 @@ span {
     width: 12rem !important;
   }
   .btn-signup {
-    margin-top: -3.8rem !important;
+    margin-top: -6.5rem !important;
     padding: 0rem 0rem !important;
     font-size: 0.9rem !important;
     height: 2rem !important;
-    margin-left: 10rem !important;
+    margin-left: 9.5rem !important;
     width: 4.5rem !important;
   }
 
   .signupnewsletter {
     margin-left: -5rem !important;
     margin-top: 1rem !important;
-    font-family: "Source Serif Pro" !important;
     font-size: 0.85rem !important;
     width: 210px !important;
   }
   .signupnewsletter input {
     margin-left: 0rem !important;
-    width: 230px !important;
+    width: 220px !important;
+    height: 2rem !important;
   }
   .speciality {
     margin-top: 3rem;
@@ -3504,11 +3639,12 @@ span {
   .h3-sp {
     font-size: 1.2rem !important;
     margin-left: 2rem;
+    margin-top: -1rem;
   }
   .specialitycard {
     width: 120px !important;
     height: 120px !important;
-    margin: 1.5rem 1rem 1rem 7.5rem !important;
+    margin: 1rem 1rem 1rem 10rem !important;
   }
   .specialityimage {
     width: 90px;
@@ -3525,6 +3661,16 @@ span {
   .carousel-indicators {
     display: none !important;
   }
+  .carousel-control-prev-icon {
+    margin-top: 0rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .carousel-control-next-icon {
+    margin-top: 0rem !important;
+    margin-right: 2rem !important;
+  }
+
   .consult-text-h2 {
     margin-top: 3rem;
     margin-left: 2rem;
@@ -3533,7 +3679,7 @@ span {
   .consultationimages {
     width: 200px;
     height: 200px;
-    margin: 3rem 0rem 2rem 6rem;
+    margin: 3rem 0rem 2rem 7rem;
   }
   .booknowcard {
     margin-left: 1.8rem !important;
@@ -3572,6 +3718,7 @@ span {
   }
   .aboutmerow {
     width: 350px;
+    margin-top: 2rem !important;
   }
   .h3-aboutme {
     font-size: 1.2rem;
@@ -3665,6 +3812,10 @@ span {
     margin-top: 2rem !important;
     margin-left: 3rem !important;
   }
+  .explorecasecards img {
+    width: 360px !important;
+  }
+
   .explorecasecards .ant-card-cover {
     width: 320px !important;
     height: 100px !important;
@@ -3686,11 +3837,23 @@ span {
     margin-left: 2rem !important;
   }
 
-  .blogdetailimage {
+  /* .blogdetailimage {
     max-width: 300px !important;
     height: 300px !important;
     margin-left: 4rem !important;
     margin-bottom: 2.5rem !important;
+  } */
+  .blogdetailimagecontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .blogdetailimage {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 300px;
   }
 
   .blogdetaildescription {
@@ -3698,6 +3861,19 @@ span {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
+
+  /* Contact Me */
+  .contactme {
+    font-size: 3rem !important;
+  }
+  .contactcontext {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: 2rem !important;
+    margin-left: 0rem !important;
+    margin-bottom: 3rem !important;
+  }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -3747,7 +3923,7 @@ span {
 @media screen and (min-width: 360px) and (max-width: 390px) {
   /*Home Page*/
   .navbrand {
-    margin-left: 1rem !important;
+    margin-left: 0.5rem !important;
     font-size: 1.7rem !important;
   }
   .contenttext {
@@ -3778,11 +3954,11 @@ span {
     width: 11rem !important;
   }
   .btn-signup {
-    margin-top: -3.8rem !important;
+    margin-top: -6.4rem !important;
     padding: 0rem 0rem !important;
     font-size: 0.8rem !important;
     height: 2rem !important;
-    margin-left: 8rem !important;
+    margin-left: 7.6rem !important;
     width: 4rem !important;
   }
 
@@ -3795,7 +3971,8 @@ span {
   }
   .signupnewsletter input {
     margin-left: 0rem !important;
-    width: 200px !important;
+    width: 195px !important;
+    height: 2rem !important;
   }
   .speciality {
     margin-top: 2rem;
@@ -3804,11 +3981,12 @@ span {
     font-size: 1rem !important;
     font-weight: 300;
     margin-left: 2rem;
+    margin-top: -1rem;
   }
   .specialitycard {
     width: 120px !important;
     height: 120px !important;
-    margin: 1.5rem 1rem 1rem 7.5rem !important;
+    margin: 1.5rem 1rem 1rem 8rem !important;
   }
   .specialityimage {
     width: 90px;
@@ -3825,8 +4003,18 @@ span {
   .carousel-indicators {
     display: none !important;
   }
+
+  .carousel-control-prev-icon {
+    margin-top: 0rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .carousel-control-next-icon {
+    margin-top: 0rem !important;
+    margin-right: 2rem !important;
+  }
   .consult-text-h2 {
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-left: 2rem;
     font-size: 1rem !important;
     font-weight: 300;
@@ -3834,10 +4022,10 @@ span {
   .consultationimages {
     width: 200px;
     height: 200px;
-    margin: 3rem 0rem 1rem 5rem;
+    margin: 2rem 0rem 1rem 6rem;
   }
   .booknowcard {
-    margin-left: 1.2rem !important;
+    margin-left: 2rem !important;
     width: 320px !important;
     height: 180px !important;
   }
@@ -3878,16 +4066,16 @@ span {
     font-size: 1.2rem;
     font-weight: 300;
     margin-top: 2rem;
-    margin-left: 1.1rem;
+    margin-left: 2.5rem;
     margin-bottom: 1rem;
     line-height: 2rem;
     text-align: justify;
-    width: 300px !important;
+    width: 350px !important;
   }
   .manali-about-me {
     width: 220px !important;
     height: 300px !important;
-    margin-left: 5rem;
+    margin-left: 6rem;
   }
   .follow {
     justify-content: center;
@@ -3998,11 +4186,29 @@ span {
     margin-left: 2rem !important;
   }
 
-  .blogdetailimage {
+  /* .blogdetailimage {
     max-width: 200px !important;
     height: 200px !important;
     margin-left: 5.5rem !important;
     margin-bottom: 2.5rem !important;
+  } */
+
+  .blogdetailimagecontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .blogdetailimage {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 300px;
+  }
+  .blogdetaildescription {
+    font-size: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
   }
 
   .blogdetaildescription {
@@ -4010,6 +4216,19 @@ span {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
+
+  /* Contact Me */
+  .contactme {
+    font-size: 3rem !important;
+  }
+  .contactcontext {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: 2rem !important;
+    margin-left: 0rem !important;
+    margin-bottom: 3rem !important;
+  }
+
   /* Register Now  Login Now*/
 
   .registerrow {
@@ -5617,7 +5836,7 @@ span {
 
   .consultationbooknow {
     font-size: 1.4rem !important;
-    margin-top: 0.5rem !important;
+    margin-top: 1rem !important;
     margin-bottom: 1rem !important;
     margin-left: 0rem !important;
   }
@@ -5800,6 +6019,7 @@ span {
   }
 
   /*Consultation Page */
+
   .consultationinputtitle {
     font-size: 1.2rem !important;
     width: 110% !important;
@@ -6041,6 +6261,10 @@ span {
   }
 
   /*Consultation Page */
+  .ant-col {
+    margin-bottom: -0.5rem !important;
+  }
+
   .consultationinputtitle {
     font-size: 1rem !important;
     width: 110% !important;
@@ -6098,6 +6322,9 @@ span {
     margin-left: 0.5rem !important;
     margin-bottom: 0.5rem !important;
   }
+  .consultaitoncheckavailability {
+    margin-top: 1rem !important;
+  }
 
   .consultationicon {
     width: 25px;
@@ -6117,7 +6344,7 @@ span {
   .consultationbooknow {
     font-size: 1rem !important;
     margin-top: 0.5rem !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 0rem !important;
     margin-left: 0rem !important;
   }
 
@@ -6277,6 +6504,9 @@ span {
   }
 
   /*Consultation Page */
+  .ant-col {
+    margin-bottom: -0.5rem !important;
+  }
   .consultationfeeinfo {
     font-family: "Source Serif Pro" !important;
     font-size: 0.8rem !important;
@@ -6342,7 +6572,9 @@ span {
     margin-left: 0.5rem !important;
     margin-bottom: 0.5rem !important;
   }
-
+  .consultaitoncheckavailability {
+    margin-top: 1rem !important;
+  }
   .consultationicon {
     width: 25px;
     height: 25px;
@@ -6361,8 +6593,9 @@ span {
   .consultationbooknow {
     font-size: 1rem !important;
     margin-top: 0.5rem !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 0rem !important;
     margin-left: 0rem !important;
+    margin-top: 1rem !important;
   }
 
   .consultaitoncheckavailability {

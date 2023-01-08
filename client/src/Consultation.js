@@ -27,13 +27,13 @@ function Consultation() {
             prevIcon={
               <span
                 aria-hidden="false"
-                className="carousel-control-prev-icon"
+                className="carousel-control-prev-icon icon"
               />
             }
             nextIcon={
               <span
                 aria-hidden="false"
-                className="carousel-control-next-icon"
+                className="carousel-control-next-icon icon"
               />
             }
           >

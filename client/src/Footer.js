@@ -21,10 +21,17 @@ function Footer() {
         <a href="https://www.facebook.com/manali.29" className="followicons">
           <i className="ri-facebook-box-fill"></i>
         </a>
-
         <h5 className="footerend">
-          All Images and Content Are Copyright Protected
+          All Images and Content Are Copyright Protected.
         </h5>
+
+        {/* <h5 className="footerend">
+          All Images and Content Are Copyright Protected.{" "}
+          <a href="https://www.freepik.com/free-vector/stomatology-dentistry-composition-set-with-dental-clinics-symbols-isometric-isolated-illustration_21077787.htm#page=4&query=dentist%20illustration&position=37&from_view=search&track=sph#position=37&page=4&query=dentist%20illustration">
+            Image by macrovector
+          </a>{" "}
+          on Freepik
+        </h5> */}
         <h5 className="footerend">Website By</h5>
         <a href="https://twitter.com/DestiniFi" className="followfootericons">
           <i className="ri-twitter-fill"></i>

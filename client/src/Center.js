@@ -5,6 +5,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import image1 from "./Images/Manali-DT.png";
+import clinic from "./Images/Clinic_Isometric.jpg";
 import { Row } from "antd";
 import { hideLoading, showLoading } from "./redux/alertsSlice";
 import { useDispatch } from "react-redux";
@@ -78,6 +79,7 @@ function Center() {
         </div>
 
         <img className="image1" src={image1} alt="image1" />
+        {/* <img className="clinic" src={clinic} alt="image1" /> */}
       </Row>
     </div>
   );

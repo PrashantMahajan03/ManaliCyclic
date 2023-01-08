@@ -2,6 +2,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import manaliaboutme from "./Images/DSC08639-1.png";
+import manalibw from "./Images/ManaliBW.png";
 
 function Aboutme() {
   return (
@@ -23,6 +24,7 @@ function Aboutme() {
         src={manaliaboutme}
         alt="manali-about-me"
       />
+      {/* <img className="manali-about-me" src={manalibw} alt="manali-about-me" /> */}
     </Row>
   );
 }
